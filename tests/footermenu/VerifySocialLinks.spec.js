@@ -51,3 +51,4 @@ test('Social Media Links', async ({ page }) => {
   const page7 = await page7Promise;
   await page7.locator('div:nth-child(62) > .fxloader-overlay').click();
 });
+
