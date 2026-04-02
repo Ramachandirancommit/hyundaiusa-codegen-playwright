@@ -39,7 +39,12 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: {
+  ...devices['Desktop Chrome'],
+  launchOptions: {
+    args: ['--force-device-scale-factor=0.90']
+  }
+}
     },
 
     // {
@@ -72,7 +77,7 @@ export default defineConfig({
     //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
     // },
   ],
-
+  
   /* Run your local dev server before starting the tests */
   // webServer: {
   //   command: 'npm run start',

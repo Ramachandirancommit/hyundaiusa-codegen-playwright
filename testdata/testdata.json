@@ -1,0 +1,108 @@
+{
+  "baseURL": "https://www.hyundaiusa.com/us/en",
+  "zipCode": "10010",
+  "runAllVehicles": false,
+
+  "vehicles": [
+    {
+      "name": "PALISADE",
+      "locator": "role=heading[name='PALISADE']",
+      "verifyText": "Palisade",
+      "startingPrice": "$36,800",
+      "category": "SUV",
+      "fuelType": "Gasoline",
+      "checkTrims": true,
+      "checkSlider": true
+    },
+    {
+      "name": "SANTA FE",
+      "locator": "role=heading[name='SANTA FE']",
+      "verifyText": "Santa Fe",
+      "startingPrice": "$33,950",
+      "category": "SUV",
+      "fuelType": "Gasoline",
+      "checkTrims": true,
+      "checkSlider": true
+    },
+    {
+      "name": "TUCSON",
+      "locator": "role=heading[name='TUCSON']",
+      "verifyText": "Tucson",
+      "startingPrice": "$27,500",
+      "category": "SUV",
+      "fuelType": "Gasoline",
+      "checkTrims": true,
+      "checkSlider": true
+    },
+    {
+      "name": "TUCSON HYBRID",
+      "locator": "role=heading[name='TUCSON HYBRID']",
+      "verifyText": "Tucson Hybrid",
+      "startingPrice": "$31,350",
+      "category": "SUV",
+      "fuelType": "Hybrid",
+      "checkTrims": true,
+      "checkSlider": true
+    },
+    {
+      "name": "ELANTRA",
+      "locator": "role=heading[name='ELANTRA']",
+      "verifyText": "Elantra",
+      "startingPrice": "$22,125",
+      "category": "Sedan",
+      "fuelType": "Gasoline",
+      "checkTrims": true,
+      "checkSlider": true
+    },
+    {
+      "name": "SONATA",
+      "locator": "role=heading[name='SONATA']",
+      "verifyText": "Sonata",
+      "startingPrice": "$27,500",
+      "category": "Sedan",
+      "fuelType": "Gasoline",
+      "checkTrims": true,
+      "checkSlider": true
+    },
+    {
+      "name": "IONIQ 5",
+      "locator": "role=heading[name='IONIQ 5']",
+      "verifyText": "IONIQ 5",
+      "startingPrice": "$41,800",
+      "category": "EV",
+      "fuelType": "Electric",
+      "checkTrims": true,
+      "checkSlider": true
+    },
+    {
+      "name": "IONIQ 6",
+      "locator": "role=heading[name='IONIQ 6']",
+      "verifyText": "IONIQ 6",
+      "startingPrice": "$38,650",
+      "category": "EV",
+      "fuelType": "Electric",
+      "checkTrims": true,
+      "checkSlider": true
+    },
+    {
+      "name": "KONA",
+      "locator": "role=heading[name='KONA']",
+      "verifyText": "Kona",
+      "startingPrice": "$24,100",
+      "category": "SUV",
+      "fuelType": "Gasoline",
+      "checkTrims": true,
+      "checkSlider": true
+    },
+    {
+      "name": "VENUE",
+      "locator": "role=heading[name='VENUE']",
+      "verifyText": "Venue",
+      "startingPrice": "$20,250",
+      "category": "SUV",
+      "fuelType": "Gasoline",
+      "checkTrims": true,
+      "checkSlider": true
+    }
+  ]
+}
