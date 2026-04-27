@@ -13,7 +13,7 @@
 async function pageSetup(page, url, zip = '10010') {
 
   // ── 1. Navigate ────────────────────────────────────────────────────────────
-  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30_000 });
+  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 50_000 });
   await page.waitForTimeout(2_000);
   console.log(`  ✔ Navigated to ${url}`);
 
@@ -44,7 +44,7 @@ async function pageSetup(page, url, zip = '10010') {
 
   // ── 4. Close any stray overlay ─────────────────────────────────────────────
   await page.mouse.click(10, 10);
-  await page.waitForTimeout(500);
+  await page.waitForTimeout(1000);
 
   console.log('  ✔ Page setup complete\n');
 }
