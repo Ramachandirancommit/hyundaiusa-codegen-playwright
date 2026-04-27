@@ -1,7 +1,11 @@
 // Palisade Trim Slider + Full Compare Overlay Flow (Always Pass)
 
 import { test } from '@playwright/test';
+<<<<<<< HEAD
 import { pageSetup } from '../../../helpers/setup';
+=======
+import { pageSetup } from '../../../../helpers/setup';
+>>>>>>> de41ad520a16766b2de52384bf276429c71b84db
 
 test.setTimeout(180000);
 
