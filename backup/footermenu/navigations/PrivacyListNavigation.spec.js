@@ -1,7 +1,7 @@
 // tests/footermenu/NavigationforPrivacy.spec.js
 
 const { test } = require('@playwright/test');
-const { pageSetup } = require('../../../../helpers/setup');
+const { pageSetup } = require('../../helpers/setup');
 
 test.setTimeout(300_000);
 

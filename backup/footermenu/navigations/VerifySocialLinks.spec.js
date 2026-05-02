@@ -1,7 +1,7 @@
 // tests/social-links.spec.js
 
 const { test, expect } = require('@playwright/test');
-const { pageSetup } = require('../../../../helpers/setup');
+const { pageSetup } = require('../../helpers/setup');
 
 // ─── Config ────────────────────────────────────────────────────────────────
 test.setTimeout(90_000);

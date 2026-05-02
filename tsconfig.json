@@ -9,5 +9,5 @@
     "noEmit": true,
     "types": ["node"]
   },
-  "include": ["tests", "helpers", "utils", "backup/footermenu", "backup/shopping", "backup/finance", "backup/contact"]
+  "include": ["tests", "helpers", "utils", "backup/footermenu", "backup/shopping", "backup/finance", "backup/contact", "backup/footermenu"]
 }

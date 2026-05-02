@@ -1,9 +1,9 @@
 // tests/footermenu/why-hyundai.spec.js
 
 const { test, expect } = require('@playwright/test');
-const { pageSetup } = require('../../../../helpers/setup');
+const { pageSetup } = require('../../helpers/setup');
 
-test.setTimeout(300_000);
+test.setTimeout(60_000);
 
 test('Why Hyundai - Navigate all links', async ({ page }) => {
 
@@ -36,7 +36,7 @@ test('Why Hyundai - Navigate all links', async ({ page }) => {
 
   // ── Footer links ──────────────────────────────────────────────────────────
   await page.locator('footer').getByRole('link', { name: 'Philanthropy' }).click();
-  await expect(page.locator('span:has-text("Community")')).toBeVisible();
+  await page.getByText('Communitydrives us. Caring').click();
 
   await page.locator('footer').getByRole('link', { name: 'Hyundai in America' }).click();
   await page.getByRole('heading', { name: "40 years in America. And we'" }).click();

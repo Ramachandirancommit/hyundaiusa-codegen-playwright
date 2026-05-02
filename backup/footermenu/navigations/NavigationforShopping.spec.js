@@ -1,11 +1,11 @@
-// tests/footermenu/NavigationforOwnerLink.spec.js
+// tests/footermenu/NavigationforShoppingTools.spec.js
 
-const { test, expect } = require('@playwright/test');
-const { pageSetup } = require('../../../../helpers/setup');
+const { test } = require('@playwright/test');
+const { pageSetup } = require('../../helpers/setup');
 
-test.setTimeout(400_000); // extra buffer for slow loading
+test.setTimeout(400_000);
 
-test('Owner Section - Full Navigation with Popups & Overlay Fix', async ({ page }) => {
+test('Shopping Tools - Full Navigation with Popups & Overlay Safe Click', async ({ page }) => {
 
   // ─────────────────────────────────────────────
   // SETUP
@@ -18,15 +18,12 @@ test('Owner Section - Full Navigation with Popups & Overlay Fix', async ({ page 
   async function safeClick(locator, options = {}) {
     if ((await locator.count()) === 0) return;
 
-    // Retry removing overlays 2 times
-    for (let retry = 0; retry < 2; retry++) {
-      await page.evaluate(() => {
-        document.querySelectorAll('.msc-gradient').forEach(el => el.remove());
-      });
-      await page.waitForTimeout(500);
-    }
+    // Remove overlays dynamically
+    await page.evaluate(() => {
+      document.querySelectorAll('.msc-gradient, .generic-hero-gradient-overlay').forEach(el => el.remove());
+    });
 
-    // Wait until the element is attached, visible, and enabled
+    // Wait until the element is visible
     await locator.first().waitFor({ state: 'visible', timeout: 15000 });
     await locator.first().click({ force: true, ...options });
     await page.waitForTimeout(2000);
@@ -44,13 +41,12 @@ test('Owner Section - Full Navigation with Popups & Overlay Fix', async ({ page 
     ]);
 
     await popup.waitForLoadState('domcontentloaded');
-    await popup.waitForTimeout(3000);
-    await popup.close();
+    await popup.waitForTimeout(2000);
 
+    console.log(`✔ ${label} - popup opened`);
+    await popup.close();
     await page.bringToFront();
     await page.waitForTimeout(2000);
-
-    console.log(`✔ ${label} - popup handled`);
   }
 
   // ============================================================
@@ -61,9 +57,7 @@ test('Owner Section - Full Navigation with Popups & Overlay Fix', async ({ page 
 
     await locatorWaitVisible(linkLocator);
     await safeClick(linkLocator);
-    await page.waitForTimeout(2000);
-
-    console.log(`✔ ${label} - internal handled`);
+    console.log(`✔ ${label} - internal navigation done`);
   }
 
   // Wait until locator is visible
@@ -77,52 +71,50 @@ test('Owner Section - Full Navigation with Popups & Overlay Fix', async ({ page 
   const zip = page.getByRole('textbox', { name: 'ZIP Code' });
   if (await zip.isVisible()) {
     await zip.fill('10010');
+    await zip.press('Enter');
     await safeClick(page.getByRole('button', { name: 'Confirm' }));
     await safeClick(page.getByRole('button', { name: 'Close' }));
   }
 
   // ============================================================
-  // 🔷 OWNER MENU OPEN
+  // 🔷 SHOPPING TOOLS FLOW
   // ============================================================
-  await safeClick(page.getByRole('heading', { name: /owner/i }));
+  await safeClick(page.getByRole('heading', { name: 'Shopping Tools' }));
 
-  // ============================================================
-  // 🔷 POPUP LINKS (NEW TAB)
-  // ============================================================
-  const popupLinks = [
-    'Login to MyHyundai',
-    'Make a Payment',
-    'Bluelink® Multimedia/Map',
-    'Owners Manuals',
-    'Accessories',
-    'Merchandise & Apparel',
-    'Safety Recalls',
-    'Engine Recalls',
-    'Theta Engine Settlement',
-    'ABS Module Class Action',
-    'Engine II Settlement',
-  ];
-
-  for (const label of popupLinks) {
-    await handlePopup(page.getByRole('link', { name: label }), label);
-  }
-
-  // ============================================================
-  // 🔷 INTERNAL LINKS
-  // ============================================================
   const internalLinks = [
-    { name: 'Maintenance Schedules', label: 'Maintenance Schedules' },
-    { name: /Roadside Assistance/i, label: '24/7 Roadside Assistance' },
-    { name: 'Bluelink+', label: 'Bluelink+' },
-    { name: 'Written Notice for California', label: 'Written Notice for California' },
+    { name: 'Shop Hyundai', label: 'Shop Hyundai' },
+    { name: 'Find a Dealer', label: 'Find a Dealer' },
+    { name: 'Build & Search Inventory', label: 'Build & Search Inventory' },
+    { name: 'Offers & Promotions', label: 'Offers & Promotions' },
+    { name: 'Special Programs', label: 'Special Programs' },
+    { name: 'Request a Quote', label: 'Request a Quote' },
+    { name: 'Schedule a Test Drive', label: 'Schedule a Test Drive' },
+    { name: 'Search Certified Used Vehicles', label: 'Search Certified Used Vehicles' },
+    { name: 'Compare our Vehicles', label: 'Compare our Vehicles' },
+    { name: 'Compare to Competitors', label: 'Compare to Competitors' },
+    { name: 'Calculate a Payment', label: 'Calculate a Payment' },
   ];
 
   for (const item of internalLinks) {
     await handleInternal(page.getByRole('link', { name: item.name }), item.label);
+    await handleInternal(page.getByRole('heading', { name: new RegExp(item.label, 'i') }), `${item.label} heading`);
+  }
+
+  // ============================================================
+  // 🔷 POPUP LINKS
+  // ============================================================
+  const popupLinks = [
+    { name: 'Calculate Trade-in Value', label: 'Trade-in Value' },
+    { name: 'Apply for Credit', label: 'Apply for Auto Financing' },
+    { name: 'Hyundai Showroom Live', label: 'Hyundai Showroom Live' },
+  ];
+
+  for (const item of popupLinks) {
+    await handlePopup(page.getByRole('link', { name: item.name }), item.label);
   }
 
   // ============================================================
   // ✅ TEST COMPLETED
   // ============================================================
-  console.log('\n🎉 OWNER SECTION FULL NAVIGATION COMPLETED SUCCESSFULLY 🎉');
+  console.log('\n🎉 SHOPPING TOOLS FULL NAVIGATION COMPLETED SUCCESSFULLY 🎉');
 });
