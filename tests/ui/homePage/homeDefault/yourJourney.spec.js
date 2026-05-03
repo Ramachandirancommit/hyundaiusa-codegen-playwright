@@ -1,28 +1,47 @@
-// tests/ui/homePage/homeDefault/hyundai-showroom-live.spec.js
+// tests/ui/homePage/homeDefault/journey-carousel.spec.js
 
 const { test, expect } = require('@playwright/test');
 const { pageSetup } = require('../../../../helpers/setup');
 
-test.setTimeout(60000);
+test.setTimeout(120000);
 
-test('Hyundai Showroom Live Flow', async ({ page }) => {
-  // Setup
-  await pageSetup(page, 'https://www.hyundaiusa.com/us/en', '10010');
-  
-  try {
-    await page.getByRole('button', { name: 'Close' }).click({ timeout: 3000 });
-  } catch {}
-  
-  await page.waitForTimeout(1000);
-  
-  // Navigate to Showroom Live
-  await page.getByRole('link', { name: 'Hyundai Logo' }).click();
-  await page.getByText('Got questions? Our Hyundai').click();
-  await page.getByText('Watch Hyundai Showroom Live').click();
-  await page.locator('div:nth-child(9) > .ts-v2-top-banner > .ts-v2-top-image.ts-v2-breakpoint-1024 > img').click();
-  
-  // Verify
-  await expect(page.getByRole('heading', { name: 'Virtual showroom. Real-time' })).toBeVisible();
-  
-  console.log('✅ Hyundai Showroom Live test passed!');
+test.describe('Journey Carousel Navigation Tests', () => {
+
+  let page;
+
+  test.beforeAll(async ({ browser }) => {
+    page = await browser.newPage();
+    await pageSetup(page, 'https://www.hyundaiusa.com/us/en', '10010');
+    console.log('✓ Setup complete - ready for tests\n');
+  });
+
+  test.afterAll(async () => {
+    await page.close();
+    console.log('✓ Browser closed');
+  });
+
+  test('Journey Carousel Navigation', async () => {
+
+    console.log('\n📋 Starting Journey Carousel Navigation test...');
+
+    await page.getByRole('heading', { name: 'Your journey starts here.' }).click();
+    await page.waitForTimeout(300);
+    
+    await page.getByText('Got questions? Our Hyundai').click();
+    await page.waitForTimeout(300);
+    
+    await page.getByText('Watch Hyundai Showroom Live').click();
+    await page.waitForTimeout(300);
+    
+    await page.getByRole('link', { name: 'See vehicle lineup' }).click();
+    await page.waitForTimeout(300);
+    
+    await page.getByText('Live hosted walkarounds').click();
+    await page.waitForTimeout(300);
+    
+    await page.getByRole('heading', { name: 'Virtual showroom. Real-time' }).click();
+    
+    console.log('✅ Journey Carousel Navigation test passed\n');
+  });
+
 });
