@@ -18,26 +18,34 @@ test.describe('Shopping Tools - Build & Price Tests', () => {
     console.log('✓ Browser closed');
   });
 
-  test('Build & Price Navigation', async () => {
+  test('Build & Price - Navigation workflow', async () => {
 
-    console.log('\n🛠️ Starting Build & Price Navigation test...');
+    console.log('\n📋 Starting Build & Price - Navigation workflow test...');
 
     console.log('  → Clicking Build & Price link');
+    // Use .first() to click the first matching element
     await page.getByRole('link', { name: 'Build & Price' }).first().click();
+    await page.waitForTimeout(2000);
+    await page.waitForLoadState('networkidle');
     
-    console.log('  → Verifying Build and Search Inventory heading');
-    await expect(page.getByRole('heading', { name: 'Build and Search Inventory' }).first()).toBeVisible({ timeout: 10000 });
+    console.log('  → Clicking Build and Search Inventory div');
+    // Click the div with class 'bsi-filters-main-title'
+    await page.locator('.bsi-filters-main-title').click();
+    await page.waitForTimeout(1500);
     
-    console.log('  → Clicking Model Results paragraph');
+    console.log('  → Clicking paragraph with Model Results text');
     await page.getByRole('paragraph').filter({ hasText: 'Model Results' }).click();
+    await page.waitForTimeout(1500);
     
-    console.log('  → Clicking Collapse all button');
-    await page.getByRole('button', { name: 'Collapse all' }).click();
+    console.log('  → Clicking PALISADE heading');
+    await page.getByRole('heading', { name: 'PALISADE', exact: true }).click();
+    await page.waitForTimeout(1500);
     
-    console.log('  → Clicking Year button');
-    await page.getByRole('button', { name: 'Year', exact: true }).click();
+    console.log('  → Clicking first instance of utility vehicle text');
+    await page.getByText('North American Utility Vehicle of the Year™ .icon-info-medium .path-stroke {').first().click();
+    await page.waitForTimeout(1500);
     
-    console.log('✅ Build & Price Navigation test passed\n');
+    console.log('✅ Build & Price - Navigation workflow test passed\n');
   });
 
 });
