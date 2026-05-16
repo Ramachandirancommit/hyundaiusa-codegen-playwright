@@ -52,5 +52,4 @@ test.describe('Vehicle Carousel Navigation Tests', () => {
     
     console.log('✅ Vehicle Carousel Tab Navigation test passed\n');
   });
-
 });

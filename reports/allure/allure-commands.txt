@@ -1,6 +1,0 @@
-npm install -D allure-playwright
-
--------
-
-npx allure generate reports/allure/results --clean -o reports/allure/report
-npx allure open reports/allure/report
