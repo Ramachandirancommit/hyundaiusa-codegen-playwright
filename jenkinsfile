@@ -1,0 +1,508 @@
+pipeline {
+    agent any
+
+    triggers {
+        cron('0 5 * * *')
+    }
+
+    tools {
+        nodejs "node20"
+    }
+
+    environment {
+        S3_BUCKET = 'husa-playwright-allurereport-results'
+        AWS_REGION = 'us-east-1'
+    }
+
+    stages {
+        stage('Clean Workspace') {
+            steps {
+                deleteDir()
+                echo "✅ Workspace cleaned"
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                bat 'npm install'
+                echo "✅ Dependencies installed"
+            }
+        }
+
+        stage('Install Playwright Browsers') {
+            steps {
+                bat 'npx playwright install'
+                echo "✅ Browsers installed"
+            }
+        }
+
+        stage('Run Playwright Tests') {
+            steps {
+                bat '''
+                    echo "Running Playwright tests..."
+                    npx playwright test tests/ui/homePage/footer/footer-Navigations/NPerfomanceLogo.spec.js
+                '''
+            }
+            post {
+                always {
+                    archiveArtifacts artifacts: 'allure-results/**', allowEmptyArchive: true
+                }
+            }
+        }
+
+        stage('Generate Allure Report') {
+            steps {
+                script {
+                    if (fileExists('allure-results')) {
+                        bat '''
+                            echo "Installing allure-commandline from npm..."
+                            npm install allure-commandline
+                            
+                            echo "Generating Allure report..."
+                            npx allure generate allure-results --clean -o allure-report
+                            
+                            echo "✅ Report generated"
+                        '''
+                    } else {
+                        echo "⚠️ No allure-results found, skipping report generation"
+                    }
+                }
+            }
+        }
+
+        stage('Upload to S3 using AWS SDK v3') {
+            steps {
+                withCredentials([usernamePassword(credentialsId: 'aws-credentials', 
+                                                  usernameVariable: 'AWS_ACCESS_KEY_ID', 
+                                                  passwordVariable: 'AWS_SECRET_ACCESS_KEY')]) {
+                    script {
+                        // Create package.json for AWS SDK v3
+                        def packageJson = '''
+{
+  "name": "s3-upload-script",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.525.0",
+    "mime-types": "^2.1.35"
+  }
+}
+'''
+                        writeFile file: 's3-upload/package.json', text: packageJson
+                        
+                        // Create upload script using AWS SDK v3
+                        def uploadScript = '''
+import { S3Client, PutObjectCommand, ListObjectsV2Command, DeleteObjectCommand } from "@aws-sdk/client-s3";
+import fs from "fs";
+import path from "path";
+import mime from "mime-types";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Initialize S3 client (without ACLs)
+const s3Client = new S3Client({
+    region: process.env.AWS_REGION,
+    credentials: {
+        accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
+    }
+});
+
+const bucketName = process.env.S3_BUCKET;
+const reportPath = path.join(process.env.WORKSPACE, "allure-report");
+const s3Prefix = `reports/${process.env.JOB_NAME}/latest/`;
+
+async function uploadFile(filePath, s3Key) {
+    try {
+        const fileContent = fs.readFileSync(filePath);
+        const contentType = mime.lookup(filePath) || "application/octet-stream";
+        
+        const command = new PutObjectCommand({
+            Bucket: bucketName,
+            Key: s3Key,
+            Body: fileContent,
+            ContentType: contentType
+            // Removed ACL parameter since bucket doesn't support ACLs
+        });
+        
+        await s3Client.send(command);
+        console.log(`✅ Uploaded: ${s3Key}`);
+    } catch (error) {
+        console.error(`❌ Error uploading ${s3Key}:`, error.message);
+        throw error;
+    }
+}
+
+async function listExistingFiles() {
+    try {
+        const command = new ListObjectsV2Command({
+            Bucket: bucketName,
+            Prefix: s3Prefix
+        });
+        
+        const response = await s3Client.send(command);
+        return response.Contents?.map(item => item.Key) || [];
+    } catch (error) {
+        console.error("Error listing files:", error.message);
+        return [];
+    }
+}
+
+async function deleteOldFiles(existingFiles, currentFiles) {
+    for (const oldFile of existingFiles) {
+        if (!currentFiles.has(oldFile)) {
+            try {
+                const command = new DeleteObjectCommand({
+                    Bucket: bucketName,
+                    Key: oldFile
+                });
+                await s3Client.send(command);
+                console.log(`🗑️ Deleted: ${oldFile}`);
+            } catch (error) {
+                console.error(`❌ Error deleting ${oldFile}:`, error.message);
+            }
+        }
+    }
+}
+
+async function uploadDirectory(directoryPath, currentFiles) {
+    const files = fs.readdirSync(directoryPath);
+    
+    for (const file of files) {
+        const filePath = path.join(directoryPath, file);
+        const stat = fs.statSync(filePath);
+        
+        if (stat.isDirectory()) {
+            await uploadDirectory(filePath, currentFiles);
+        } else {
+            const relativePath = path.relative(reportPath, filePath);
+            const s3Key = path.join(s3Prefix, relativePath).replace(/\\\\/g, "/");
+            currentFiles.add(s3Key);
+            await uploadFile(filePath, s3Key);
+        }
+    }
+}
+
+async function main() {
+    try {
+        console.log("Starting S3 upload with AWS SDK v3...");
+        
+        if (!fs.existsSync(reportPath)) {
+            console.error("❌ Report directory not found:", reportPath);
+            process.exit(1);
+        }
+        
+        // Get existing files
+        const existingFiles = await listExistingFiles();
+        const currentFiles = new Set();
+        
+        // Upload new files
+        await uploadDirectory(reportPath, currentFiles);
+        
+        // Delete old files (sync operation)
+        await deleteOldFiles(existingFiles, currentFiles);
+        
+        console.log("🎉 Upload completed successfully!");
+        console.log(`📊 Report URL: https://${bucketName}.s3.amazonaws.com/${s3Prefix}index.html`);
+        
+    } catch (error) {
+        console.error("❌ Upload failed:", error);
+        process.exit(1);
+    }
+}
+
+main();
+'''
+                        // Create directory and files
+                        bat '''
+                            if not exist "s3-upload" mkdir s3-upload
+                        '''
+                        writeFile file: 's3-upload/upload.js', text: uploadScript
+                        
+                        // Install dependencies
+                        dir('s3-upload') {
+                            bat 'npm install'
+                        }
+                        
+                        // Run upload script with environment variables
+                        withEnv([
+                            "S3_BUCKET=${S3_BUCKET}",
+                            "JOB_NAME=${JOB_NAME}",
+                            "AWS_REGION=${AWS_REGION}",
+                            "WORKSPACE=${WORKSPACE}"
+                        ]) {
+                            dir('s3-upload') {
+                                bat 'node upload.js'
+                            }
+                        }
+                        
+                        env.LATEST_REPORT_URL = "https://${S3_BUCKET}.s3.amazonaws.com/reports/${JOB_NAME}/latest/index.html"
+                        echo "✅ Report URL: ${env.LATEST_REPORT_URL}"
+                    }
+                }
+            }
+        }
+
+        stage('Create Zip Attachment') {
+            steps {
+                script {
+                    if (fileExists('allure-report')) {
+                        powershell '''
+                            if (Test-Path "allure-report.zip") { Remove-Item "allure-report.zip" -Force }
+                            Compress-Archive -Path "allure-report/*" -DestinationPath "allure-report.zip" -Force
+                            Write-Host "✅ ZIP file created successfully"
+                        '''
+                    } else {
+                        echo "⚠️ No allure-report found, skipping zip creation"
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            script {
+                archiveArtifacts artifacts: 'allure-results/**', allowEmptyArchive: true
+                archiveArtifacts artifacts: 'allure-report/**', allowEmptyArchive: true
+                archiveArtifacts artifacts: 'allure-report.zip', allowEmptyArchive: true
+                
+                def statusColor = currentBuild.currentResult == 'SUCCESS' ? '#4CAF50' : '#f44336'
+                def statusIcon = currentBuild.currentResult == 'SUCCESS' ? '🎉' : '⚠️'
+                def statusEmoji = currentBuild.currentResult == 'SUCCESS' ? '✅ PASSED' : '❌ FAILED'
+                def reportUrl = env.LATEST_REPORT_URL ?: "https://${S3_BUCKET}.s3.amazonaws.com/reports/${JOB_NAME}/latest/index.html"
+                
+                // Only send email if report exists
+                if (fileExists('allure-report.zip') || reportUrl) {
+                    emailext(
+                        subject: "${statusIcon} Playwright Test Report ${statusEmoji} - Build #${BUILD_NUMBER} - ${JOB_NAME}",
+                        mimeType: 'text/html',
+                        body: """
+                            <!DOCTYPE html>
+                            <html>
+                            <head>
+                                <meta charset="UTF-8">
+                                <style>
+                                    body {
+                                        font-family: 'Segoe UI', Arial, sans-serif;
+                                        line-height: 1.6;
+                                        color: #333;
+                                        margin: 0;
+                                        padding: 0;
+                                    }
+                                    .container {
+                                        max-width: 750px;
+                                        margin: 20px auto;
+                                        background: #ffffff;
+                                        border-radius: 12px;
+                                        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+                                        overflow: hidden;
+                                    }
+                                    .header {
+                                        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                                        color: white;
+                                        padding: 30px;
+                                        text-align: center;
+                                    }
+                                    .header h1 {
+                                        margin: 0;
+                                        font-size: 28px;
+                                    }
+                                    .header h2 {
+                                        margin: 10px 0 0;
+                                        font-size: 16px;
+                                        font-weight: normal;
+                                        opacity: 0.9;
+                                    }
+                                    .status-badge {
+                                        background: ${statusColor};
+                                        color: white;
+                                        padding: 10px 25px;
+                                        border-radius: 50px;
+                                        display: inline-block;
+                                        margin: 20px 0;
+                                        font-size: 20px;
+                                        font-weight: bold;
+                                    }
+                                    .content {
+                                        padding: 30px;
+                                    }
+                                    .info-box {
+                                        background: #f8f9fa;
+                                        border-left: 4px solid ${statusColor};
+                                        padding: 15px 20px;
+                                        margin: 20px 0;
+                                        border-radius: 8px;
+                                    }
+                                    .report-links {
+                                        background: #e8f5e9;
+                                        padding: 20px;
+                                        border-radius: 10px;
+                                        margin: 25px 0;
+                                        text-align: center;
+                                    }
+                                    .report-button {
+                                        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                                        color: white !important;
+                                        padding: 12px 30px;
+                                        text-decoration: none;
+                                        border-radius: 50px;
+                                        display: inline-block;
+                                        font-weight: bold;
+                                        margin: 10px 5px;
+                                    }
+                                    .attachment-box {
+                                        background: #fff3e0;
+                                        border: 1px solid #ffb74d;
+                                        padding: 15px;
+                                        border-radius: 8px;
+                                        margin: 20px 0;
+                                    }
+                                    .details-table {
+                                        width: 100%;
+                                        border-collapse: collapse;
+                                        margin: 15px 0;
+                                    }
+                                    .details-table td {
+                                        padding: 10px;
+                                        border-bottom: 1px solid #eee;
+                                    }
+                                    .details-table td:first-child {
+                                        font-weight: bold;
+                                        width: 35%;
+                                        background: #f8f9fa;
+                                    }
+                                    .footer {
+                                        background: #f8f9fa;
+                                        padding: 20px;
+                                        text-align: center;
+                                        font-size: 12px;
+                                        color: #666;
+                                        border-top: 1px solid #eee;
+                                    }
+                                    .badge {
+                                        display: inline-block;
+                                        padding: 3px 8px;
+                                        border-radius: 4px;
+                                        font-size: 11px;
+                                        font-weight: bold;
+                                        margin-left: 8px;
+                                        background: #4CAF50;
+                                        color: white;
+                                    }
+                                    .warning {
+                                        background: #fff3cd;
+                                        border: 1px solid #ffc107;
+                                        padding: 15px;
+                                        border-radius: 8px;
+                                        margin: 20px 0;
+                                        color: #856404;
+                                    }
+                                </style>
+                            </head>
+                            <body>
+                                <div class="container">
+                                    <div class="header">
+                                        <h1>${statusIcon} Playwright Test Execution</h1>
+                                        <h2>${JOB_NAME}</h2>
+                                    </div>
+                                    
+                                    <div class="content">
+                                        <div style="text-align: center;">
+                                            <div class="status-badge">
+                                                ${currentBuild.currentResult}
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="info-box">
+                                            <strong>📋 Build Information</strong>
+                                            <table class="details-table">
+                                                <tr>
+                                                    <td>Build Number:</td>
+                                                    <td><strong>#${BUILD_NUMBER}</strong> <span class="badge">LATEST</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Status:</td>
+                                                    <td><strong style="color: ${statusColor}">${currentBuild.currentResult}</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Duration:</td>
+                                                    <td>${currentBuild.durationString}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Completed:</td>
+                                                    <td>${new Date().format('yyyy-MM-dd HH:mm:ss')}</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        
+                                        ${reportUrl && reportUrl != 'null' ? """
+                                        <div class="report-links">
+                                            <h3 style="margin-top: 0;">📊 View Allure Report Online</h3>
+                                            <a href="${reportUrl}" class="report-button" target="_blank">
+                                                🔗 Open Report in Browser (S3)
+                                            </a>
+                                            <p style="font-size: 12px; margin-top: 10px;">
+                                                ✅ Opens directly in browser - No download required<br>
+                                                🚀 Hosted on AWS S3 - Fast & reliable access
+                                            </p>
+                                        </div>
+                                        """ : """
+                                        <div class="warning">
+                                            <strong>⚠️ Report Upload Failed</strong><br>
+                                            Please check the Jenkins build artifacts for the Allure report.
+                                        </div>
+                                        """}
+                                        
+                                        <div class="attachment-box">
+                                            <h3 style="margin-top: 0;">📎 Email Attachment</h3>
+                                            <p>The Allure report is attached to this email as <strong>allure-report.zip</strong></p>
+                                            <p><strong>To view:</strong> Download → Extract → Open index.html</p>
+                                        </div>
+                                        
+                                        <div style="background: #e3f2fd; padding: 15px; border-radius: 8px; margin: 20px 0;">
+                                            <strong>🔗 Quick Links:</strong><br>
+                                            • <a href="${BUILD_URL}" target="_blank">Jenkins Build Console</a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="footer">
+                                        <p>🚀 Generated by Jenkins CI/CD Pipeline</p>
+                                        <p>📦 Reports archived as artifacts in Jenkins</p>
+                                    </div>
+                                </div>
+                            </body>
+                            </html>
+                        """,
+                        to: 'mail2rams91@gmail.com,mramachandiran9@gmail.com,rmani@autoeveramerica.com',
+                        attachmentsPattern: 'allure-report.zip'
+                    )
+                    
+                    echo "========================================="
+                    echo "✅ Email sent successfully"
+                    echo "🔗 Report URL: ${reportUrl}"
+                    echo "========================================="
+                } else {
+                    echo "⚠️ No report found to attach or upload"
+                    emailext(
+                        subject: "${statusIcon} Playwright Test ${currentBuild.currentResult} - Build #${BUILD_NUMBER}",
+                        body: "Build ${currentBuild.currentResult}. Check Jenkins console for details: ${BUILD_URL}",
+                        to: 'mail2rams91@gmail.com,mramachandiran9@gmail.com,rmani@autoeveramerica.com'
+                    )
+                }
+            }
+        }
+        
+        success {
+            echo "🎉 BUILD SUCCESSFUL!"
+        }
+        
+        failure {
+            echo "❌ BUILD FAILED - Check console output for details"
+        }
+    }
+}
+
+
