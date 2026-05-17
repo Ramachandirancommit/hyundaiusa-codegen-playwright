@@ -500,9 +500,7 @@ main();
         }
         
         failure {
-            echo "❌ BUILD FAILED - Check console output for details"
+            echo "❌ BUILD FAILED with error - Check console output for details"
         }
     }
 }
-
-
