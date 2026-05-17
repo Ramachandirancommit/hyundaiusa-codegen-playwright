@@ -14,14 +14,6 @@ pipeline {
         AWS_REGION = 'us-east-1'
     }
 
-    stages {
-        stage('Clean Workspace') {
-            steps {
-                deleteDir()
-                echo "✅ Workspace cleaned"
-            }
-        }
-
         stage('Install Dependencies') {
             steps {
                 bat 'npm install'
@@ -40,7 +32,7 @@ pipeline {
             steps {
                 bat '''
                     echo "Running Playwright tests..."
-                    npx playwright test tests/ui/homePage/footer/footer-Navigations/NPerfomanceLogo.spec.js
+                    npx playwright test tests/ui/homePage/footer
                 '''
             }
             post {
