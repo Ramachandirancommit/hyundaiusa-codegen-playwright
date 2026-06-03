@@ -13,8 +13,7 @@
     "report:html": "npx playwright show-report",
     "report:allure": "allure generate allure-results --clean -o allure-report && allure open allure-report",
     "codegen": "npx playwright codegen",
-    "install:browsers": "npx playwright install",
-    "postinstall": "npx playwright install"
+    "install:browsers": "npx playwright install"
   },
   "keywords": [
     "playwright",
