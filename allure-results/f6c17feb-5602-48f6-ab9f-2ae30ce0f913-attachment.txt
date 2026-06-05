@@ -1,0 +1,15 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+
+🚀 Starting Complete Navigation Test...
+
+✔ about list of links heading - complete tick
+✔ Our Company complete
+✔ COVID complete
+✔ Careers complete
+✔ Life complete
+✔ News complete
+✔ Motorsports complete
