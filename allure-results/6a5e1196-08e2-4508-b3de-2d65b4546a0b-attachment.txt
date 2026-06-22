@@ -1,0 +1,64 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ Build & Price clicked
+✔ PALISADE selected
+⚠ Flow encountered an error, but test will pass
+locator.click: Error: strict mode violation: getByText('PALISADE SE') resolved to 2 elements:
+    1) <span class="bv-360-top-nav-model-name">2026 PALISADE SE</span> aka getByText('2026 PALISADE SE', { exact: true })
+    2) <header class="bv-print-header">…</header> aka getByText('Configuration Summary Your')
+
+Call log:
+  - waiting for getByText('PALISADE SE')
+
+    at C:\Users\2012018\Documents\hyundaiusa-codegen-playwright\tests\ui\build-price\build-the-vehicle\build-trim.spec.js:39:41 {
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Users\\2012018\\Documents\\hyundaiusa-codegen-playwright\\tests\\ui\\build-price\\build-the-vehicle\\build-trim.spec.js',
+      line: 39,
+      column: 41
+    },
+    category: 'pw:api',
+    title: "Click getByText('PALISADE SE')",
+    apiName: 'locator.click',
+    params: {
+      selector: 'internal:text="PALISADE SE"i',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@57',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@57',
+      _title: "Click getByText('PALISADE SE')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1781882332863,
+    error: {
+      message: "Error: locator.click: Error: strict mode violation: getByText('PALISADE SE') resolved to 2 elements:\n" +
+        `    1) <span class="bv-360-top-nav-model-name">2026 PALISADE SE</span> aka getByText('2026 PALISADE SE', { exact: true })\n` +
+        `    2) <header class="bv-print-header">…</header> aka getByText('Configuration Summary Your')\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('PALISADE SE')\x1B[22m\n",
+      stack: "Error: locator.click: Error: strict mode violation: getByText('PALISADE SE') resolved to 2 elements:\n" +
+        `    1) <span class="bv-360-top-nav-model-name">2026 PALISADE SE</span> aka getByText('2026 PALISADE SE', { exact: true })\n` +
+        `    2) <header class="bv-print-header">…</header> aka getByText('Configuration Summary Your')\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('PALISADE SE')\x1B[22m\n" +
+        '\n' +
+        '    at C:\\Users\\2012018\\Documents\\hyundaiusa-codegen-playwright\\tests\\ui\\build-price\\build-the-vehicle\\build-trim.spec.js:39:41',
+      cause: undefined
+    }
+  }
+}

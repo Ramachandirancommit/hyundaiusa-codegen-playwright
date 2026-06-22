@@ -1,0 +1,17 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✓ Setup complete - ready for tests
+
+
+🔍 Starting Search Inventory Navigation test...
+  → Clicking Search Inventory link
+  → Verifying Search Inventory heading
+  → Clicking dealership only toggle
+  → Clicking Collapse all button
+  → Clicking Year button
+✅ Search Inventory Navigation test passed
+
+✓ Browser closed

@@ -1,0 +1,12 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✓ Setup complete - ready for tests
+
+
+📋 Starting Saved Vehicles - Global Saved workflow test...
+  → Clicking Global Saved button
+  → Clicking New inventory button
+✓ Browser closed

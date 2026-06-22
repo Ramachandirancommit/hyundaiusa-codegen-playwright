@@ -1,0 +1,14 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ Build & Price clicked
+✔ PALISADE selected
+✔ Exterior color selected: Abyss Black
+✔ Exterior color selected: Galaxy Maroon
+✔ Exterior color selected: Ecotronic Gray
+✔ Exterior color selected: Creamy White
+✔ Interior color selected: Black
+✔ Interior color selected: Gray
+✅ Palisade Color Selection Flow Completed (PASS State)

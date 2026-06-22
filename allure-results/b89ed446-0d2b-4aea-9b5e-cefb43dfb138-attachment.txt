@@ -1,0 +1,28 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+Build & Search Inventory loaded 🎉
+
+==============================
+COLOR: Black
+==============================
+Model Results Text: 
+                        20 Model Results 
+                    
+Model Result Count: 20
+UI Card Count: 20
+✔ Black → Card 1: Name + Image Present
+✔ Black → Card 2: Name + Image Present
+✔ Black → Card 3: Name + Image Present
+✔ Black → Card 4: Name + Image Present
+✔ Black → Card 5: Name + Image Present
+✔ Black → Card 6: Name + Image Present
+✔ Black → Card 7: Name + Image Present
+✔ Black → Card 8: Name + Image Present
+✔ Black → Card 9: Name + Image Present
+✔ Black → Card 10: Name + Image Present
+✔ Black → Card 11: Name + Image Present
+✔ Black → Card 12: Name + Image Present
+✔ Black → Card 13: Name + Image Present

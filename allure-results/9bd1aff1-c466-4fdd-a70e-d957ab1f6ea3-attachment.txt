@@ -1,0 +1,14 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ Build & Price clicked
+✔ PALISADE selected
+✔ Trim carousel loaded
+✔ Compare selected (1)
+✔ Compare selected (2)
+✔ Compare selected (3)
+✔ Drawer Compare button clicked
+✔ Overlay Compare clicked (if available)
+✅ Full Compare Overlay Flow Completed (PASS state)

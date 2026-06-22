@@ -1,0 +1,8 @@
+
+🛠️ TEST: Build & Price
+  🏠 Navigating home
+  ✓ Clicked
+  ✓ Clicked
+  ✓ Verified: Build (text)
+✅ Build & Price passed
+

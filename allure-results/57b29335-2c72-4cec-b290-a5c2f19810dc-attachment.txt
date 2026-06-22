@@ -1,0 +1,15 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ Page setup complete
+✔ BSI page loaded
+
+========== RANGE 50 ==========
+📦 Range 50 | Expected: 5 | Actual: 5
+🎉 RANGE 50 DONE (stable: 5)
+
+
+========== RANGE 100 ==========
+📦 Range 100 | Expected: 4 | Actual: 5

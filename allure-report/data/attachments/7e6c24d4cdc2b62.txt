@@ -1,0 +1,56 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ Build & Price clicked
+✔ PALISADE selected
+✔ FWD drivetrain selected
+⚠ Flow encountered an error, but test will pass
+locator.click: Test timeout of 300000ms exceeded.
+Call log:
+  - waiting for getByText('$43,035').nth(1)
+
+    at C:\Users\2012018\Documents\hyundaiusa-codegen-playwright\tests\ui\build-price\build-the-vehicle\build-drivetrain.spec.js:46:44 {
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Users\\2012018\\Documents\\hyundaiusa-codegen-playwright\\tests\\ui\\build-price\\build-the-vehicle\\build-drivetrain.spec.js',
+      line: 46,
+      column: 44
+    },
+    category: 'pw:api',
+    title: "Click getByText('$43,035').nth(1)",
+    apiName: 'locator.click',
+    params: {
+      selector: 'internal:text="$43,035"i >> nth=1',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@62',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@62',
+      _title: "Click getByText('$43,035').nth(1)",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1781882287294,
+    error: {
+      message: 'Error: locator.click: Test timeout of 300000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('$43,035').nth(1)\x1B[22m\n",
+      stack: 'Error: locator.click: Test timeout of 300000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('$43,035').nth(1)\x1B[22m\n" +
+        '\n' +
+        '    at C:\\Users\\2012018\\Documents\\hyundaiusa-codegen-playwright\\tests\\ui\\build-price\\build-the-vehicle\\build-drivetrain.spec.js:46:44',
+      cause: undefined
+    }
+  }
+}

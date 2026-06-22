@@ -1,7 +1,7 @@
 // tests/build&price/year/2024-filter.spec.js
 
 const { test, expect } = require('@playwright/test');
-const { pageSetup } = require('../../../helpers/setup');
+const { pageSetup } = require('../../../../helpers/setup');
 
 test.setTimeout(180000);
 

@@ -1,0 +1,12 @@
+
+🚗 TEST: Auto Shows
+  🏠 Navigating to Home
+  ✓ Clicked element
+  ✓ Clicked element
+  ✓ Verified: Showing the world what we do
+  ✓ Clicked element
+  ✓ Clicked element
+✅ Auto Shows test passed
+
+⏳ Waiting 2 seconds...
+

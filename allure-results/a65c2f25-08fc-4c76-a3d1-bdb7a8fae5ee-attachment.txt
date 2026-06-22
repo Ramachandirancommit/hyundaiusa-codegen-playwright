@@ -1,0 +1,20 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ BSI page loaded
+
+========== ELECTRIC ==========
+
+✔ IONIQ 5 | $35,000
+✔ IONIQ 5 N | $66,200
+✔ IONIQ 9 | $58,955
+✔ KONA Electric | $32,975
+✔ IONIQ 6 | $37,850
+
+🎉 ELECTRIC COMPLETED
+
+
+========== PLUG-IN HYBRID ==========
+

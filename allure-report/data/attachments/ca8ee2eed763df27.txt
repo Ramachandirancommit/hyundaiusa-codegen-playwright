@@ -1,0 +1,16 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✓ Setup complete - ready for tests
+
+
+📋 Starting Saved Vehicles - Global Saved Certified workflow test...
+  → Clicking Global Saved button
+  → Clicking Certified used tab
+  → Clicking Search certified used link
+  → Waiting for popup window
+  → Clicking Search Certified Inventory link
+  → Saving vehicle 2020 Elantra Gt
+✓ Browser closed

@@ -1,7 +1,7 @@
 //all vehicles show trim compare list
 
 import { test, expect } from '@playwright/test';
-import { pageSetup } from '../../../helpers/setup';
+import { pageSetup } from '../../../../helpers/setup';
 
 test.setTimeout(180000);
 

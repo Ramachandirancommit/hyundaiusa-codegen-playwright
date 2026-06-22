@@ -1,0 +1,14 @@
+
+💻 TEST: Technology Navigation
+  Step 1: Going to home page
+  Step 2: Opening Global Menu
+  ✓ Clicked element
+  Step 3: Clicking Innovation
+  ✓ Clicked element
+  Step 4: Clicking Technology
+  ✓ Clicked element
+  Step 5: Verifying page loaded
+✅ Technology Navigation test passed
+
+⏳ Test completed, waiting 2 seconds...
+

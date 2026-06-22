@@ -1,0 +1,101 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ Build & Price clicked
+✔ PALISADE selected
+✔ First accessory selected
+✔ Third accessory selected
+✔ Fourth accessory selected
+✔ Seventh accessory selected
+⚠ Flow encountered an error, but test will pass
+locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for getByText('Total MSRP', { exact: true })
+    - locator resolved to <span>Total MSRP</span>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    209 × waiting for element to be visible, enabled and stable
+        - element is not visible
+      - retrying click action
+        - waiting 500ms
+
+    at C:\Users\2012018\Documents\hyundaiusa-codegen-playwright\tests\ui\build-price\build-the-vehicle\build-addons-summary.spec.js:56:57 {
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Users\\2012018\\Documents\\hyundaiusa-codegen-playwright\\tests\\ui\\build-price\\build-the-vehicle\\build-addons-summary.spec.js',
+      line: 56,
+      column: 57
+    },
+    category: 'pw:api',
+    title: "Click getByText('Total MSRP', { exact: true })",
+    apiName: 'locator.click',
+    params: {
+      selector: 'internal:text="Total MSRP"s',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@66',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@66',
+      _title: "Click getByText('Total MSRP', { exact: true })",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1781881566405,
+    error: {
+      message: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Total MSRP', { exact: true })\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <span>Total MSRP</span>\x1B[22m\n' +
+        '\x1B[2m  - attempting click action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    209 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m        - element is not visible\x1B[22m\n' +
+        '\x1B[2m      - retrying click action\x1B[22m\n' +
+        '\x1B[2m        - waiting 500ms\x1B[22m\n',
+      stack: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Total MSRP', { exact: true })\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <span>Total MSRP</span>\x1B[22m\n' +
+        '\x1B[2m  - attempting click action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    209 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m        - element is not visible\x1B[22m\n' +
+        '\x1B[2m      - retrying click action\x1B[22m\n' +
+        '\x1B[2m        - waiting 500ms\x1B[22m\n' +
+        '\n' +
+        '    at C:\\Users\\2012018\\Documents\\hyundaiusa-codegen-playwright\\tests\\ui\\build-price\\build-the-vehicle\\build-addons-summary.spec.js:56:57',
+      cause: undefined
+    }
+  }
+}

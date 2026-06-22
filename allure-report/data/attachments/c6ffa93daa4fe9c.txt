@@ -1,0 +1,27 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+ Redirected to Build and Search Inventory page successfully 🎉
+ SUVs checked, and redirected to SUVs vehicles card list 🎉
+14 Model Results found 
+SUV cards found: 14
+SUV vehicles in dataset: 14
+✔ PALISADE | PASS
+✔ PALISADE Hybrid | PASS
+✔ SANTA FE | PASS
+✔ SANTA FE Hybrid | PASS
+✔ TUCSON | PASS
+✔ TUCSON Hybrid | PASS
+✔ TUCSON Plug-in Hybrid | PASS
+✔ IONIQ 5 | PASS
+✔ IONIQ 5 N | PASS
+✔ IONIQ 9 | PASS
+✔ KONA | PASS
+✔ KONA Electric | PASS
+✔ SANTA CRUZ | PASS
+✔ VENUE | PASS
+
+🎉 ALL SUV VEHICLES VALIDATED SUCCESSFULLY 🎉
+

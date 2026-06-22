@@ -1,0 +1,361 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+Vehicle cards found: 17
+
+Card 1
+
+                            2026
+                          
+                                PALISADE
+                              
+                                            2026
+                                          
+                                                PALISADE  
+                                        Our premium highly capable three-row SUV.
+                                             
+                2026 North American Utility Vehicle of the Year™
+                
+	
+		.icon-info-medium .path-stroke {
+			stroke: #002C5E; stroke-width: 1px; fill: none;
+		}
+		.icon-info-medium .path-fill {
+			fill: #002C5E;
+		}
+	
+
+	
+	
+	
+  The 2026 North American Utility Vehicle of the Year™ used under license by Hyundai Motor America.
+    
+                                            Starting MSRP   MSRP excludes freight charges, tax, title, and license fees. Freight charges and actual dealer prices may vary. Vehicles displayed may contain optional equipment at additional cost. Accessory items shown may vary according to model and illustration.  $39,435         
+                                        Build
+                                         
+                                            1,623 in inventory
+                                              
+                        Show 7 Trims
+                         
+✔ PALISADE | 2026 | $39,435
+
+Card 2
+
+                            2026
+                          
+                                SANTA FE
+                              
+                                            2026
+                                          
+                                                SANTA FE  
+                                        Our capable three-row SUV with rugged style and roomy comfort.
+                                                 
+                                            Starting MSRP   MSRP excludes freight charges, tax, title, and license fees. Freight charges and actual dealer prices may vary. Vehicles displayed may contain optional equipment at additional cost. Accessory items shown may vary according to model and illustration.  $35,050         
+                                        Build
+                                         
+                                            2,129 in inventory
+                                              
+                        Show 5 Trims
+                         
+✔ SANTA FE | 2026 | $35,050
+
+Card 3
+
+                            2026
+                          
+                                PALISADE Hybrid
+                              
+                                            2026
+                                          
+                                                PALISADE Hybrid  
+                                        Our refined three-row hybrid SUV with great capability and 600+ mile range.
+                                             
+                2026 North American Utility Vehicle of the Year™
+                
+	
+		.icon-info-medium .path-stroke {
+			stroke: #002C5E; stroke-width: 1px; fill: none;
+		}
+		.icon-info-medium .path-fill {
+			fill: #002C5E;
+		}
+	
+
+	
+	
+	
+  The 2026 North American Utility Vehicle of the Year™ used under license by Hyundai Motor America.
+    
+                                            Starting MSRP   MSRP excludes freight charges, tax, title, and license fees. Freight charges and actual dealer prices may vary. Vehicles displayed may contain optional equipment at additional cost. Accessory items shown may vary according to model and illustration.  $44,160         
+                                        Build
+                                         
+                                            1,267 in inventory
+                                              
+                        Show 4 Trims
+                         
+✔ PALISADE Hybrid | 2026 | $44,160
+
+Card 4
+
+                            2026
+                          
+                                SANTA FE Hybrid
+                              
+                                            2026
+                                          
+                                                SANTA FE Hybrid  
+                                        Adventure-ready three-row hybrid SUV for the whole family.
+                                                 
+                                            Starting MSRP   MSRP excludes freight charges, tax, title, and license fees. Freight charges and actual dealer prices may vary. Vehicles displayed may contain optional equipment at additional cost. Accessory items shown may vary according to model and illustration.  $36,400         
+                                        Build
+                                         
+                                            1,904 in inventory
+                                              
+                        Show 4 Trims
+                         
+✔ SANTA FE Hybrid | 2026 | $36,400
+
+Card 5
+
+                            2026
+                          
+                                TUCSON
+                              
+                                            2026
+                                          
+                                                TUCSON  
+                                        Our versatile compact SUV with cutting-edge style, tech and safety.
+                                                 
+                                            Starting MSRP   MSRP excludes freight charges, tax, title, and license fees. Freight charges and actual dealer prices may vary. Vehicles displayed may contain optional equipment at additional cost. Accessory items shown may vary according to model and illustration.  $29,450         
+                                        Build
+                                         
+                                            2,708 in inventory
+                                              
+                        Show 6 Trims
+                         
+✔ TUCSON | 2026 | $29,450
+
+Card 6
+
+                            2026
+                          
+                                TUCSON Plug-in Hybrid
+                              
+                                            2026
+                                          
+                                                TUCSON Plug-in Hybrid  
+                                        Recharge or refuel, our bold compact SUV gives you the best of both worlds.
+                                                 
+                                            Starting MSRP   MSRP excludes freight charges, tax, title, and license fees. Freight charges and actual dealer prices may vary. Vehicles displayed may contain optional equipment at additional cost. Accessory items shown may vary according to model and illustration.  $40,325         
+                                        Build
+                                         
+                                            122 in inventory
+                                              
+                        Show 2 Trims
+                         
+✔ TUCSON Plug-in Hybrid | 2026 | $40,325
+
+Card 7
+
+                            2026
+                          
+                                TUCSON Hybrid
+                              
+                                            2026
+                                          
+                                                TUCSON Hybrid  
+                                        Our modern hybrid SUV with standard HTRAC All Wheel Drive.
+                                                 
+                                            Starting MSRP   MSRP excludes freight charges, tax, title, and license fees. Freight charges and actual dealer prices may vary. Vehicles displayed may contain optional equipment at additional cost. Accessory items shown may vary according to model and illustration.  $32,450         
+                                        Build
+                                         
+                                            774 in inventory
+                                              
+                        Show 4 Trims
+                         
+✔ TUCSON Hybrid | 2026 | $32,450
+
+Card 8
+
+                            2026
+                          
+                                SONATA
+                              
+                                            2026
+                                          
+                                                SONATA  
+                                        Our bold midsize sedan with a sporty design and innovative tech.
+                                                 
+                                            Starting MSRP   MSRP excludes freight charges, tax, title, and license fees. Freight charges and actual dealer prices may vary. Vehicles displayed may contain optional equipment at additional cost. Accessory items shown may vary according to model and illustration.  $27,450         
+                                        Build
+                                         
+                                            1,233 in inventory
+                                              
+                        Show 6 Trims
+                         
+✔ SONATA | 2026 | $27,450
+
+Card 9
+
+                            2026
+                          
+                                SONATA Hybrid
+                              
+                                            2026
+                                          
+                                                SONATA Hybrid  
+                                        Our hybrid midsize sedan that’s sleek in design and smart on fuel.
+                                                 
+                                            Starting MSRP   MSRP excludes freight charges, tax, title, and license fees. Freight charges and actual dealer prices may vary. Vehicles displayed may contain optional equipment at additional cost. Accessory items shown may vary according to model and illustration.  $29,200         
+                                        Build
+                                         
+                                            239 in inventory
+                                              
+                        Show 3 Trims
+                         
+✔ SONATA Hybrid | 2026 | $29,200
+
+Card 10
+
+                            2026
+                          
+                                IONIQ 5
+                              
+                                            2026
+                                          
+                                                IONIQ 5  
+                                        Our breakthrough electric SUV that looks and feels like the future.
+                                                 
+                                            Starting MSRP   MSRP excludes freight charges, tax, title, and license fees. Freight charges and actual dealer prices may vary. Vehicles displayed may contain optional equipment at additional cost. Accessory items shown may vary according to model and illustration.  $35,000         
+                                        Build
+                                         
+                                            306 in inventory
+                                              
+                        Show 5 Trims
+                         
+✔ IONIQ 5 | 2026 | $35,000
+
+Card 11
+
+                            2026
+                          
+                                ELANTRA
+                              
+                                            2026
+                                          
+                                                ELANTRA  
+                                        Our tech-centric compact sedan.
+                                                 
+                                            Starting MSRP   MSRP excludes freight charges, tax, title, and license fees. Freight charges and actual dealer prices may vary. Vehicles displayed may contain optional equipment at additional cost. Accessory items shown may vary according to model and illustration.  $22,625         
+                                        Build
+                                         
+                                            2,851 in inventory
+                                              
+                        Show 5 Trims
+                         
+✔ ELANTRA | 2026 | $22,625
+
+Card 12
+
+                            2026
+                          
+                                IONIQ 9
+                              
+                                            2026
+                                          
+                                                IONIQ 9  
+                                        Our three-row electric SUV with an impressive range of up to 335 miles.
+                                                 
+                                            Starting MSRP   MSRP excludes freight charges, tax, title, and license fees. Freight charges and actual dealer prices may vary. Vehicles displayed may contain optional equipment at additional cost. Accessory items shown may vary according to model and illustration.  $58,955         
+                                        Build
+                                         
+                                            105 in inventory
+                                              
+                        Show 6 Trims
+                         
+✔ IONIQ 9 | 2026 | $58,955
+
+Card 13
+
+                            2026
+                          
+                                ELANTRA Hybrid
+                              
+                                            2026
+                                          
+                                                ELANTRA Hybrid  
+                                        Our compact hybrid sedan that maximizes efficiency.
+                                                 
+                                            Starting MSRP   MSRP excludes freight charges, tax, title, and license fees. Freight charges and actual dealer prices may vary. Vehicles displayed may contain optional equipment at additional cost. Accessory items shown may vary according to model and illustration.  $25,450         
+                                        Build
+                                         
+                                            256 in inventory
+                                              
+                        Show 3 Trims
+                         
+✔ ELANTRA Hybrid | 2026 | $25,450
+
+Card 14
+
+                            2026
+                          
+                                ELANTRA N
+                              
+                                            2026
+                                          
+                                                ELANTRA N  
+                                        Our high-performance compact sedan.
+                                                 
+                                            Starting MSRP   MSRP excludes freight charges, tax, title, and license fees. Freight charges and actual dealer prices may vary. Vehicles displayed may contain optional equipment at additional cost. Accessory items shown may vary according to model and illustration.  $35,100         
+                                        Build
+                                         
+                                            136 in inventory
+                                              
+                        Show 1 Trim
+                         
+✔ ELANTRA N | 2026 | $35,100
+
+Card 15
+
+                            2026
+                          
+                                KONA
+                              
+                                            2026
+                                          
+                                                KONA  
+                                        Our small SUV that’s big where it counts.
+                                                 
+                                            Starting MSRP   MSRP excludes freight charges, tax, title, and license fees. Freight charges and actual dealer prices may vary. Vehicles displayed may contain optional equipment at additional cost. Accessory items shown may vary according to model and illustration.  $25,500         
+                                        Build
+                                         
+                                            1,719 in inventory
+                                              
+                        Show 4 Trims
+                         
+✔ KONA | 2026 | $25,500
+
+Card 16
+
+                            2026
+                          
+                                SANTA CRUZ
+                              
+                                            2026
+                                          
+                                                SANTA CRUZ  
+                                        Our one-of-a-kind Sport Adventure Vehicle.
+                                                 
+                                            Starting MSRP   MSRP excludes freight charges, tax, title, and license fees. Freight charges and actual dealer prices may vary. Vehicles displayed may contain optional equipment at additional cost. Accessory items shown may vary according to model and illustration.  $29,750         
+                                        Build
+                                         
+                                            441 in inventory
+                                              
+                        Show 5 Trims
+                         
+✔ SANTA CRUZ | 2026 | $29,750
+
+🎉 ALL 2026 VEHICLES VALIDATED SUCCESSFULLY 🎉
+

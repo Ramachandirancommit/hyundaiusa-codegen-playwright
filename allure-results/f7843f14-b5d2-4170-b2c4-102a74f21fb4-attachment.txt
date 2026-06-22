@@ -1,0 +1,42 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+Vehicle cards found: 20
+✔ PALISADE | 2026 | $39,435 | PASS
+✔ SANTA FE | 2026 | $35,050 | PASS
+✔ PALISADE Hybrid | 2026 | $44,160 | PASS
+✔ SANTA FE Hybrid | 2026 | $36,400 | PASS
+✔ TUCSON | 2026 | $29,450 | PASS
+✔ TUCSON Plug-in Hybrid | 2026 | $40,325 | PASS
+✔ TUCSON Hybrid | 2026 | $32,450 | PASS
+✔ SONATA | 2026 | $27,450 | PASS
+✔ SONATA Hybrid | 2026 | $29,200 | PASS
+✔ IONIQ 5 | 2026 | $35,000 | PASS
+✔ ELANTRA | 2026 | $22,625 | PASS
+✔ IONIQ 9 | 2026 | $58,955 | PASS
+✔ ELANTRA Hybrid | 2026 | $25,450 | PASS
+✔ ELANTRA N | 2026 | $35,100 | PASS
+✔ KONA | 2026 | $25,500 | PASS
+✔ SANTA CRUZ | 2026 | $29,750 | PASS
+✔ PALISADE | 2025 | $37,200 | PASS
+✔ SANTA FE | 2025 | $34,300 | PASS
+✔ SANTA FE Hybrid | 2025 | $37,800 | PASS
+✔ TUCSON | 2025 | $28,705 | PASS
+✔ TUCSON Hybrid | 2025 | $33,465 | PASS
+✔ TUCSON Plug-in Hybrid | 2025 | $39,730 | PASS
+✔ SONATA | 2025 | $26,900 | PASS
+✔ IONIQ 5 | 2025 | $42,600 | PASS
+✔ IONIQ 5 N | 2025 | $66,200 | PASS
+✔ ELANTRA | 2025 | $22,125 | PASS
+✔ ELANTRA Hybrid | 2025 | $25,450 | PASS
+✔ ELANTRA N | 2025 | $34,350 | PASS
+✔ KONA | 2025 | $24,550 | PASS
+✔ KONA Electric | 2025 | $32,975 | PASS
+✔ IONIQ 6 | 2025 | $37,850 | PASS
+✔ SANTA CRUZ | 2025 | $28,750 | PASS
+✔ VENUE | 2025 | $20,200 | PASS
+
+🎉 ALL 2026 + 2025 VEHICLES VALIDATED SUCCESSFULLY 🎉
+

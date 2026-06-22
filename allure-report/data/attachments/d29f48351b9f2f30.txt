@@ -1,0 +1,16 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+Sedan cards found: 6
+Sedan vehicles in dataset: 6
+✔ SONATA | PASS
+✔ SONATA Hybrid | PASS
+✔ ELANTRA | PASS
+✔ ELANTRA Hybrid | PASS
+✔ ELANTRA N | PASS
+✔ IONIQ 6 | PASS
+
+🎉 ALL SEDAN VEHICLES VALIDATED SUCCESSFULLY 🎉
+

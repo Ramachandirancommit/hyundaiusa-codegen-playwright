@@ -1,0 +1,18 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✓ Setup complete - ready for tests
+
+
+📋 Starting Request a Quote Navigation test...
+  → Navigating to home page
+  → Clicking Request a Quote link
+  → Verifying Request a Quote heading
+  → Clicking Select a vehicle option
+  → Clicking Choose a dealer option
+  → Clicking Enter your info option
+✅ Request a Quote Navigation test passed
+
+✓ Browser closed

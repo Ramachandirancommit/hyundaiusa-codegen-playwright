@@ -1,0 +1,28 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+Redirected to Build and Search Inventory page 🎉
+Compact SUVs filter applied 🎯
+Compact SUV vehicles in dataset: 11
+Compact SUV cards found: 11
+
+==============================
+COMPACT SUV VALIDATION RESULTS
+==============================
+
+✔ SANTA FE                  | $35,050  | PASS
+✔ SANTA FE Hybrid           | $36,400  | PASS
+✔ TUCSON                    | $29,450  | PASS
+✔ TUCSON Hybrid             | $32,450  | PASS
+✔ TUCSON Plug-in Hybrid     | $40,325  | PASS
+✔ IONIQ 5                   | $35,000  | PASS
+✔ IONIQ 5 N                 | $66,200  | PASS
+✔ KONA                      | $25,500  | PASS
+✔ KONA Electric             | $32,975  | PASS
+✔ SANTA CRUZ                | $29,750  | PASS
+✔ VENUE                     | $20,550  | PASS
+
+🎉 ALL COMPACT SUV VEHICLES VALIDATED SUCCESSFULLY 🎉
+

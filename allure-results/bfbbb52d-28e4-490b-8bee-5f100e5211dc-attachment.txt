@@ -1,0 +1,31 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+Redirected to Build and Search Inventory page 🎉
+
+========== ELECTRIC ==========
+
+UI Result: 
+                        5 Model Results 
+                    
+Vehicle cards found: 5
+Expected vehicles : 5
+
+✔ IONIQ 5 | $35,000 | PASS
+✔ IONIQ 5 N | $66,200 | PASS
+✔ IONIQ 9 | $58,955 | PASS
+✔ KONA Electric | $32,975 | PASS
+✔ IONIQ 6 | $37,850 | PASS
+
+🎉 ELECTRIC VALIDATION COMPLETED 🎉
+
+
+========== PLUG-IN HYBRID ==========
+
+UI Result: 
+                        20 Model Results 
+                    
+Vehicle cards found: 20
+Expected vehicles : 1

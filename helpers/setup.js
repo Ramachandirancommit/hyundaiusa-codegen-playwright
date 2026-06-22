@@ -13,14 +13,15 @@
 async function pageSetup(page, url, zip = '10010') {
 
   // ── 1. Navigate ────────────────────────────────────────────────────────────
-  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 50_000 });
+  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 70_000 });
   await page.waitForTimeout(2_000);
   console.log(`  ✔ Navigated to ${url}`);
+  await page.waitForTimeout(3000);
 
   // ── 2. ZIP modal ───────────────────────────────────────────────────────────
   try {
     const zipInput = page.getByRole('textbox', { name: /zip code/i });
-    await zipInput.waitFor({ state: 'visible', timeout: 8_000 });
+    await zipInput.waitFor({ state: 'visible', timeout: 9_000 });
     await zipInput.fill(zip);
     await page.getByRole('button', { name: /confirm/i }).click();
     await page.waitForTimeout(2_000);
@@ -34,9 +35,9 @@ async function pageSetup(page, url, zip = '10010') {
     const cookieBtn = page
       .locator('.onetrust-close-btn-handler, #onetrust-accept-btn-handler')
       .first();
-    await cookieBtn.waitFor({ state: 'visible', timeout: 8_000 });
+    await cookieBtn.waitFor({ state: 'visible', timeout: 9_000 });
     await cookieBtn.click();
-    await page.waitForTimeout(1_500);
+    await page.waitForTimeout(2_500);
     console.log('  ✔ Cookie banner dismissed');
   } catch {
     // Cookie banner did not appear
@@ -44,7 +45,7 @@ async function pageSetup(page, url, zip = '10010') {
 
   // ── 4. Close any stray overlay ─────────────────────────────────────────────
   await page.mouse.click(10, 10);
-  await page.waitForTimeout(1000);
+  await page.waitForTimeout(3000);
 
   console.log('  ✔ Page setup complete\n');
 }

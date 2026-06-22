@@ -1,0 +1,24 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✓ Setup complete - ready for tests
+
+
+📞 Starting FAQs and Contact Navigation test...
+  → Opening Shopping Tools menu
+  → Clicking Contact
+  → Clicking FAQs
+  → Verifying Frequently Asked Questions heading
+  → Verifying Popular Questions heading
+  → Re-opening Shopping Tools menu
+  → Waiting for popup
+  → Clicking Contact Hyundai link
+  ✓ Popup opened
+  → Verifying New Message heading in popup
+  ✓ New Message heading verified
+  ✓ Popup closed
+✅ FAQs and Contact Navigation test passed
+
+✓ Browser closed

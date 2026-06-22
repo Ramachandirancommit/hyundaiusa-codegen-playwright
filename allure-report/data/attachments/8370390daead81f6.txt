@@ -1,0 +1,21 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✓ Setup complete - ready for tests
+
+
+📋 Starting Saved Vehicles - Global Saved workflow test...
+  → Clicking Global Saved button
+  → Clicking New inventory tab
+  → Clicking text area
+  → Clicking Certified used tab
+  → Clicking Builds tab
+  → Clicking Start a build link
+  → Checking PALISADE checkbox
+  → Navigating to build page
+  → Clicking Build link
+  → Clicking heart anchor
+  → Clicking PALISADE SE
+✓ Browser closed

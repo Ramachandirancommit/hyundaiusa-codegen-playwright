@@ -1,0 +1,9 @@
+
+🧩 TEST: Accessories Popup
+  🏠 Navigating home
+  ✓ Clicked
+  ✓ Clicked
+  ✓ Verified Forbidden page
+  ✓ Popup closed
+✅ Accessories Popup passed
+

@@ -1,0 +1,17 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ All Vehicles - done
+✔ Electrified - done
+✔ SUVs - complete tick
+✔ Sedans - complete tick
+✔ Performance - complete tick
+✔ Vehicle Reviews - complete tick
+✔ Vehicle Brochures - complete tick
+✔ Safety - complete tick
+✔ Technology - complete tick
+✔ Genesis - complete tick
+
+🎉 ALL VEHICLES FOOTER LINKS COMPLETED SUCCESSFULLY 🎉

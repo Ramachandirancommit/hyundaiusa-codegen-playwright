@@ -1,0 +1,25 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+Redirected to Build and Search Inventory page successfully 🎉
+Electrified checked, and redirected to Electrified vehicles card list 🎉
+12 Model Results found
+Electrified cards found: 12
+Electrified vehicles in dataset: 12
+✔ PALISADE Hybrid | PASS
+✔ SANTA FE Hybrid | PASS
+✔ TUCSON Hybrid | PASS
+✔ TUCSON Plug-in Hybrid | PASS
+✔ IONIQ 5 | PASS
+✔ IONIQ 5 N | PASS
+✔ IONIQ 9 | PASS
+✔ SONATA | PASS
+✔ SONATA Hybrid | PASS
+✔ ELANTRA Hybrid | PASS
+✔ IONIQ 6 | PASS
+✔ KONA Electric | PASS
+
+🎉 ALL ELECTRIFIED VEHICLES VALIDATED SUCCESSFULLY 🎉
+

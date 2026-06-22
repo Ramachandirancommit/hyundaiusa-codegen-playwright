@@ -1,0 +1,22 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ BSI page loaded
+✔ MPG 23 | 20 Model Results
+✔ MPG 28 | 16 Model Results
+✔ MPG 33 | 11 Model Results
+✔ MPG 38 | 7 Model Results
+✔ MPG 43 | 6 Model Results
+✔ MPG 53 | 4 Model Results
+✔ MPG 58 | 3 Model Results
+✔ MPG 63 | 3 Model Results
+✔ MPG 68 | 3 Model Results
+✔ MPG 73 | 2 Model Results
+✔ MPG 78 | 1 Model Result
+✔ MPG 83 | 1 Model Result
+✔ MPG 88 | 1 Model Result
+
+🎉 MPG TEST COMPLETED
+

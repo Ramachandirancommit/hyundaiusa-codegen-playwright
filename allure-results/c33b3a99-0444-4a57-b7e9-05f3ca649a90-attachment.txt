@@ -1,0 +1,37 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+Redirected to Build and Search Inventory page 🎉
+
+========== BLACK ==========
+
+📊 20 Model Results
+✔ Vehicle: PALISADE
+✔ Price: $39,435
+
+🎉 BLACK VALIDATION COMPLETED 🎉
+
+
+========== GRAY ==========
+
+📊 20 Model Results
+✔ Vehicle: PALISADE
+✔ Price: $39,435
+
+🎉 GRAY VALIDATION COMPLETED 🎉
+
+
+========== WHITE ==========
+
+📊 20 Model Results
+✔ Vehicle: PALISADE
+✔ Price: $39,435
+
+🎉 WHITE VALIDATION COMPLETED 🎉
+
+
+========== SILVER ==========
+
+📊 20 Model Results

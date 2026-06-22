@@ -1,0 +1,14 @@
+
+📜 TEST: Warranty Navigation
+  Step 1: Going to home page
+  🏠 Navigating to home page...
+  Step 2: Opening Global Menu
+  ✓ Clicked element
+  Step 3: Clicking Warranty
+  ✓ Clicked element
+  Step 4: Verifying Warranty page
+  ✓ Clicked element
+✅ Warranty test passed
+
+⏳ Test completed, waiting 2 seconds...
+

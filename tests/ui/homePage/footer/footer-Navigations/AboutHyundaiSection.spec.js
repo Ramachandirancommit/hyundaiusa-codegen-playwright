@@ -83,13 +83,6 @@ test('Homepage - Complete Navigation Test', async ({ page }) => {
   console.log('✔ Motorsports complete');
 
   // ============================================================
-  // AUTO SHOWS
-  // ============================================================
-  await safeClick(page.getByRole('link', { name: 'Auto Shows' }));
-  await safeClick(page.getByRole('heading', { name: 'Showing the world what we do' }));
-  console.log('✔ Auto Shows complete');
-
-  // ============================================================
   // AWARDS
   // ============================================================
   await safeClick(page.getByRole('link', { name: 'Awards & Accolades' }));

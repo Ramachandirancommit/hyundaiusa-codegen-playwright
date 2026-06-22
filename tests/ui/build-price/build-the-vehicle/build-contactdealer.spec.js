@@ -1,6 +1,6 @@
 // Palisade Summary / Request a Quote Flow with Base Setup
 import { test } from '@playwright/test';
-import { pageSetup } from '../../../helpers/setup';
+import { pageSetup } from '../../../../helpers/setup';
 
 test.setTimeout(300000); // Allow for slow loading pages
 

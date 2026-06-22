@@ -1,0 +1,20 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✓ Setup complete - ready for tests
+
+
+📋 Starting Search Vehicles - Global Search workflow test...
+  → Clicking Global Search button
+  → Clicking search box
+  → Filling search box with Bluelink
+  → Clicking Blue Link Service Subscriber link
+  → Clicking search field
+  → Clicking search note title
+  → Clicking Blue Link Service text
+  ⚠️ Blue Link Service text not found
+✅ Search Vehicles - Global Search workflow test passed
+
+✓ Browser closed

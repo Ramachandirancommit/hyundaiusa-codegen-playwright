@@ -1,0 +1,30 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+Redirected to Build and Search Inventory page 🎉
+
+========== BLACK ==========
+
+✔ PALISADE | $39,435 | PASS
+
+🎉 BLACK VALIDATION COMPLETED 🎉
+
+
+========== GRAY ==========
+
+✔ PALISADE | $39,435 | PASS
+
+🎉 GRAY VALIDATION COMPLETED 🎉
+
+
+========== WHITE ==========
+
+✔ PALISADE | $39,435 | PASS
+
+🎉 WHITE VALIDATION COMPLETED 🎉
+
+
+========== SILVER ==========
+

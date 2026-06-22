@@ -1,0 +1,11 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✅ Build & Price page verified
+✅ Inventory page verified
+✅ Price Quote page verified
+✅ Local Savings page verified
+✅ Special Programs page verified
+✅ All navigation tests passed!

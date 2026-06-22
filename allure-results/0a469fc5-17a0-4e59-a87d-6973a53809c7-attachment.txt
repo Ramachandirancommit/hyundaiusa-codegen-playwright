@@ -1,0 +1,13 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ Hyundai USA Homepage - complete tick
+✔ Hyundai Logo - complete tick
+✔ Hyundai Hope on Wheels - complete tick
+✔ Community Section - complete tick
+✔ Building for Tomorrow - complete tick
+✔ What are we doing for - complete tick
+
+🎉 Homepage Hyundai Hope Navigation Completed Successfully 🎉

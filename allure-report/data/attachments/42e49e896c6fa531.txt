@@ -1,0 +1,13 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ Build & Price clicked
+✔ Year header visible
+✔ Year filter expanded
+✔ 2025 checkbox visible
+✔ 2025 checkbox selected
+✔ PALISADE clicked
+
+🎉 2025 PALISADE Flow Test Completed Successfully 🎉

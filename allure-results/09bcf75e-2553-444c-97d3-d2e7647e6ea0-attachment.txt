@@ -1,0 +1,76 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+Redirected to Build and Search Inventory page 🎉
+
+📊 Black
+Model Results Text → 
+                        20 Model Results 
+                    
+Model Count → 20
+
+
+📊 Gray
+Model Results Text → 
+                        20 Model Results 
+                    
+Model Count → 20
+
+
+📊 White
+Model Results Text → 
+                        20 Model Results 
+                    
+Model Count → 20
+
+
+📊 Silver
+Model Results Text → 
+                        20 Model Results 
+                    
+Model Count → 20
+
+
+📊 Blue
+Model Results Text → 
+                        20 Model Results 
+                    
+Model Count → 20
+
+
+📊 Brown
+Model Results Text → 
+                        20 Model Results 
+                    
+Model Count → 20
+
+
+📊 Green
+Model Results Text → 
+                        20 Model Results 
+                    
+Model Count → 20
+
+
+📊 Red
+Model Results Text → 
+                        20 Model Results 
+                    
+Model Count → 20
+
+
+📊 Orange
+Model Results Text → 
+                        20 Model Results 
+                    
+Model Count → 20
+
+
+📊 Yellow
+Model Results Text → 
+                        20 Model Results 
+                    
+Model Count → 20
+

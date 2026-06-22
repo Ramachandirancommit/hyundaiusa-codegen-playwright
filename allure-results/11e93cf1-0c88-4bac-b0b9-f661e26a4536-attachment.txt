@@ -1,0 +1,11 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+Redirected to Build and Search Inventory page 🎉
+
+========== ELECTRIC ==========
+
+
+UI Result: Model Results text not found

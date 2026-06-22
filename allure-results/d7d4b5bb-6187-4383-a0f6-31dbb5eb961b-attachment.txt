@@ -1,0 +1,52 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ Page setup complete
+✔ BSI page loaded
+
+========== ELECTRIC ==========
+
+✔ IONIQ 5 | $35,000
+✔ IONIQ 5 N | $66,200
+✔ IONIQ 9 | $58,955
+✔ KONA Electric | $32,975
+✔ IONIQ 6 | $37,850
+
+🎉 ELECTRIC COMPLETED
+
+
+========== PLUG-IN HYBRID ==========
+
+✔ TUCSON Plug-in Hybrid | $40,325
+
+🎉 PLUG-IN HYBRID COMPLETED
+
+
+========== HYBRID ==========
+
+✔ PALISADE Hybrid | $44,160
+✔ SANTA FE Hybrid | $36,400
+✔ TUCSON Hybrid | $32,450
+✔ SONATA | $26,900
+✔ SONATA Hybrid | $29,200
+✔ ELANTRA Hybrid | $25,450
+
+🎉 HYBRID COMPLETED
+
+
+========== GASOLINE ==========
+
+✔ PALISADE | $39,435
+✔ SANTA FE | $35,050
+✔ TUCSON | $29,450
+✔ SONATA | $27,450
+✔ ELANTRA | $22,625
+✔ ELANTRA N | $35,100
+✔ KONA | $25,500
+✔ SANTA CRUZ | $29,750
+✔ VENUE | $20,550
+
+🎉 GASOLINE COMPLETED
+

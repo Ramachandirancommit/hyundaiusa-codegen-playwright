@@ -1,0 +1,15 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✓ Setup complete - ready for tests
+
+
+🔍 TEST: Search Inventory
+  ✓ Clicked
+  ✓ Clicked
+  ✓ Clicked
+  ✓ Verified: Search Inventory (text)
+✅ Search Inventory passed
+

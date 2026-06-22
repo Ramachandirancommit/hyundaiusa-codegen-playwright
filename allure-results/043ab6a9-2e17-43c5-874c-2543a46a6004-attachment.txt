@@ -1,0 +1,229 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+Redirected to Build and Search Inventory page 🎉
+
+====================================
+🔍 Validating PALISADE
+====================================
+✔ Name Validation Passed
+   Expected : PALISADE
+✔ Price Validation Passed
+   Expected : $39,435
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ PALISADE | PASS
+
+====================================
+🔍 Validating PALISADE Hybrid
+====================================
+✔ Name Validation Passed
+   Expected : PALISADE Hybrid
+✔ Price Validation Passed
+   Expected : $44,160
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ PALISADE Hybrid | PASS
+
+====================================
+🔍 Validating SANTA FE
+====================================
+✔ Name Validation Passed
+   Expected : SANTA FE
+✔ Price Validation Passed
+   Expected : $35,050
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ SANTA FE | PASS
+
+====================================
+🔍 Validating SANTA FE Hybrid
+====================================
+✔ Name Validation Passed
+   Expected : SANTA FE Hybrid
+✔ Price Validation Passed
+   Expected : $36,400
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ SANTA FE Hybrid | PASS
+
+====================================
+🔍 Validating TUCSON
+====================================
+✔ Name Validation Passed
+   Expected : TUCSON
+✔ Price Validation Passed
+   Expected : $29,450
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ TUCSON | PASS
+
+====================================
+🔍 Validating TUCSON Hybrid
+====================================
+✔ Name Validation Passed
+   Expected : TUCSON Hybrid
+✔ Price Validation Passed
+   Expected : $32,450
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ TUCSON Hybrid | PASS
+
+====================================
+🔍 Validating TUCSON Plug-in Hybrid
+====================================
+✔ Name Validation Passed
+   Expected : TUCSON Plug-in Hybrid
+✔ Price Validation Passed
+   Expected : $40,325
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ TUCSON Plug-in Hybrid | PASS
+
+====================================
+🔍 Validating SONATA
+====================================
+✔ Name Validation Passed
+   Expected : SONATA
+✔ Price Validation Passed
+   Expected : $27,450
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ SONATA | PASS
+
+====================================
+🔍 Validating SONATA Hybrid
+====================================
+✔ Name Validation Passed
+   Expected : SONATA Hybrid
+✔ Price Validation Passed
+   Expected : $29,200
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ SONATA Hybrid | PASS
+
+====================================
+🔍 Validating IONIQ 5
+====================================
+✔ Name Validation Passed
+   Expected : IONIQ 5
+✔ Price Validation Passed
+   Expected : $35,000
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ IONIQ 5 | PASS
+
+====================================
+🔍 Validating IONIQ 5 N
+====================================
+✔ Name Validation Passed
+   Expected : IONIQ 5 N
+✔ Price Validation Passed
+   Expected : $66,200
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ IONIQ 5 N | PASS
+
+====================================
+🔍 Validating ELANTRA
+====================================
+✔ Name Validation Passed
+   Expected : ELANTRA
+✔ Price Validation Passed
+   Expected : $22,625
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ ELANTRA | PASS
+
+====================================
+🔍 Validating ELANTRA Hybrid
+====================================
+✔ Name Validation Passed
+   Expected : ELANTRA Hybrid
+✔ Price Validation Passed
+   Expected : $25,450
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ ELANTRA Hybrid | PASS
+
+====================================
+🔍 Validating ELANTRA N
+====================================
+✔ Name Validation Passed
+   Expected : ELANTRA N
+✔ Price Validation Passed
+   Expected : $35,100
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ ELANTRA N | PASS
+
+====================================
+🔍 Validating IONIQ 9
+====================================
+✔ Name Validation Passed
+   Expected : IONIQ 9
+✔ Price Validation Passed
+   Expected : $58,955
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ IONIQ 9 | PASS
+
+====================================
+🔍 Validating KONA
+====================================
+✔ Name Validation Passed
+   Expected : KONA
+✔ Price Validation Passed
+   Expected : $25,500
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ KONA | PASS
+
+====================================
+🔍 Validating KONA Electric
+====================================
+✔ Name Validation Passed
+   Expected : KONA Electric
+✔ Price Validation Passed
+   Expected : $32,975
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ KONA Electric | PASS
+
+====================================
+🔍 Validating IONIQ 6
+====================================
+✔ Name Validation Passed
+   Expected : IONIQ 6
+✔ Price Validation Passed
+   Expected : $37,850
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ IONIQ 6 | PASS
+
+====================================
+🔍 Validating SANTA CRUZ
+====================================
+✔ Name Validation Passed
+   Expected : SANTA CRUZ
+✔ Price Validation Passed
+   Expected : $29,750
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ SANTA CRUZ | PASS
+
+====================================
+🔍 Validating VENUE
+====================================
+✔ Name Validation Passed
+   Expected : VENUE
+✔ Price Validation Passed
+   Expected : $20,550
+✔ Image Validation Passed
+✔ Vehicle Card Found
+✅ VENUE | PASS
+
+🎉 ALL BSI MODELS VALIDATED SUCCESSFULLY 🎉
+

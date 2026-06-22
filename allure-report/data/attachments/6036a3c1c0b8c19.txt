@@ -1,0 +1,32 @@
+
+🚀 Starting Dealers Navigation Test
+
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+
+📞 TEST 1: Contact and Phone
+─────────────────────────────────────────────
+  ✓ Global Menu
+  ✓ Koeppel Hyundai
+  ✓ Nearest Dealer
+  ✓ Distance
+  ✓ Dealer name
+  ✓ Phone number
+  ✓ Address line 1
+  ✓ Address line 2
+✅ TEST 1 PASSED
+
+🗺️ TEST 2: Get Directions
+─────────────────────────────────────────────
+  📍 URL: https://www.google.com/maps/dir/?api=1&hl=en&destination=34-54%2044Th%20Street%2C%20Long%20Island%20City%2C%20NY%2011101
+  ✓ Google Maps URL verified
+  ✓ Directions tab closed
+✅ TEST 2 PASSED
+
+═══════════════════════════════════════════════════════
+✨ ALL 2 TESTS PASSED SUCCESSFULLY ✨
+═══════════════════════════════════════════════════════
+

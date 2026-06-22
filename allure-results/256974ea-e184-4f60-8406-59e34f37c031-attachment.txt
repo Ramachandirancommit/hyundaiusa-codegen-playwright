@@ -1,0 +1,17 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✓ Setup complete - ready for tests
+
+
+📋 Starting Build & Price - Navigation workflow test...
+  → Clicking Build & Price link
+  → Clicking Build and Search Inventory div
+  → Clicking paragraph with Model Results text
+  → Clicking PALISADE heading
+  → Clicking first instance of utility vehicle text
+✅ Build & Price - Navigation workflow test passed
+
+✓ Browser closed
