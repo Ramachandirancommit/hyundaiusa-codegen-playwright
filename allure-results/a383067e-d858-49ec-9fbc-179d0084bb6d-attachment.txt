@@ -1,0 +1,18 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+
+🛡️ TEST: Safety Navigation
+  Step 1: Opening Global Menu
+  ✓ Clicked element
+  Step 2: Clicking Innovation
+  ✓ Clicked element
+  Step 3: Clicking Safety
+  ✓ Clicked element
+  Step 4: Verifying page loaded
+✅ Safety Navigation test passed
+
+⏳ Test completed, waiting 2 seconds...
+

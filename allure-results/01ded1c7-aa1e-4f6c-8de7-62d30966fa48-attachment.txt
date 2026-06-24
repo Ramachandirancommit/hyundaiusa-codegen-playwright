@@ -1,0 +1,21 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+
+📋 TEST: Ownership Resources
+  Step 1: Opening Global Menu
+  ✓ Clicked element
+  Step 2: Clicking Owners
+  ✓ Clicked element
+  Step 3: Clicking Ownership Resources
+  ✓ Clicked element
+  Step 4: Verifying Ownership Resources heading
+  ✓ Clicked element
+  Step 5: Verifying Welcome heading
+  ✓ Clicked element
+✅ Ownership Resources test passed
+
+⏳ Test completed, waiting 2 seconds...
+

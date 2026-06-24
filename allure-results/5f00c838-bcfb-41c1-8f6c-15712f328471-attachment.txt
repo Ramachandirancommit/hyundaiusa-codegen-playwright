@@ -1,0 +1,16 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ Build & Price clicked
+✔ Year header visible
+✔ Year filter expanded
+✔ 2024 checkbox visible
+✔ 2024 checkbox is disabled
+✔ Attempted forced click on disabled checkbox
+✔ 2024 label visible
+Cursor Style: default
+✔ Label is non-clickable (correct behavior)
+
+🎉 2024 Disabled Year Test Completed Successfully 🎉

@@ -1,0 +1,42 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ Page setup complete
+✔ BSI page loaded
+
+========== RANGE 50 ==========
+📦 Range 50 | Expected: 5 | Actual: 5
+🎉 RANGE 50 DONE (stable: 5)
+
+
+========== RANGE 100 ==========
+📦 Range 100 | Expected: 5 | Actual: 5
+🎉 RANGE 100 DONE (stable: 5)
+
+
+========== RANGE 150 ==========
+📦 Range 150 | Expected: 5 | Actual: 5
+🎉 RANGE 150 DONE (stable: 5)
+
+
+========== RANGE 200 ==========
+📦 Range 200 | Expected: 5 | Actual: 5
+🎉 RANGE 200 DONE (stable: 5)
+
+
+========== RANGE 250 ==========
+📦 Range 250 | Expected: 4 | Actual: 4
+🎉 RANGE 250 DONE (stable: 4)
+
+
+========== RANGE 300 ==========
+📦 Range 300 | Expected: 3 | Actual: 3
+🎉 RANGE 300 DONE (stable: 3)
+
+
+========== RANGE 342 ==========
+📦 Range 342 | Expected: 1 | Actual: 1
+🎉 RANGE 342 DONE (stable: 1)
+

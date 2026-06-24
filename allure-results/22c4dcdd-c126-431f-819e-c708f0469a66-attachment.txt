@@ -1,0 +1,9 @@
+
+⚖️ TEST: Compare Vehicles
+  🏠 Navigating home
+  ✓ Clicked
+  ✓ Clicked
+  ✓ Compare page loaded with vehicle selection
+✅ Compare Vehicles passed
+
+✓ Browser closed

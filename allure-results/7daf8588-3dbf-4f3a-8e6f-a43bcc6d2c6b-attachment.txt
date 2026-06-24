@@ -1,0 +1,17 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ Build & Price clicked
+✔ PALISADE selected
+✔ Show Trims clicked
+✔ Trim carousel loaded
+✔ Slider moved NEXT (1)
+✔ Slider moved NEXT (2)
+✔ Slider moved NEXT (3)
+✔ Slider moved PREVIOUS (1)
+✔ Slider moved PREVIOUS (2)
+✔ Slider moved PREVIOUS (3)
+Total real trims: 7
+✅ Palisade Trim Slider Flow Completed Successfully

@@ -1,0 +1,5 @@
+🚀 Test started
+✔ Redirected to Home Page
+✔ Home page loaded successfully
+🎉 Reporter smoke test completed
+🎉 Reporter smoke test completed

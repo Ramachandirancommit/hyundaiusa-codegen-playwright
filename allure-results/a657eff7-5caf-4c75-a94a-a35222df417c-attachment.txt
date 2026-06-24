@@ -1,0 +1,21 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ Site Map - internal navigation done
+✔ Site Map heading - internal navigation done
+✔ FAQ - internal navigation done
+✔ FAQ heading - internal navigation done
+✔ Accessibility - internal navigation done
+✔ Accessibility text - internal navigation done
+✔ Terms of Use - internal navigation done
+✔ Terms of Use heading - internal navigation done
+✔ Privacy Notice - internal navigation done
+✔ Your Privacy Choices - popup opened
+✔ Cookie Preferences - internal navigation done
+✔ Privacy Preference Center heading - internal navigation done
+✔ Close Preference Center - internal navigation done
+✔ Cookie Preferences revisit - internal navigation done
+
+🎉 SITE MAP & PRIVACY NAVIGATION COMPLETED SUCCESSFULLY 🎉

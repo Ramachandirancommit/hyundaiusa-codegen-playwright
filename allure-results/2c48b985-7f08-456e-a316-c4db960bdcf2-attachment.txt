@@ -1,0 +1,20 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+Redirected to Build and Search Inventory page 🎉
+✔ Price Range $25,200-$ | 20 Model Results | PASS
+✔ Price Range $30,200-$ | 19 Model Results | PASS
+✔ Price Range $35,200-$ | 17 Model Results | PASS
+✔ Price Range $40,200-$ | 16 Model Results | PASS
+✔ Price Range $45,200-$ | 13 Model Results | PASS
+✔ Price Range $50,200-$ | 7 Model Results | PASS
+✔ Price Range $55,200-$ | 5 Model Results | PASS
+✔ Price Range $60,200-$ | 2 Model Results | PASS
+✔ Price Range $65,200-$ | 2 Model Results | PASS
+✔ Price Range $70,200-$ | 1 Model Result | PASS
+✔ Price Range $75,200-$ | 1 Model Result | PASS
+
+🎉 ALL PRICE FILTER VALIDATIONS COMPLETED 🎉
+

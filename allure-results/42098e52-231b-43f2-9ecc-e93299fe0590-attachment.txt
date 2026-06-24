@@ -1,0 +1,12 @@
+🚀 Test started
+✔ Redirected to Home Page
+✔ Home page loaded successfully
+✔ Redirected to Build & Price page
+✔ Build & Price page loaded
+🎉 Reporter smoke test completed
+🎉 Reporter smoke test completed
+🎉 Reporter smoke test completed
+🎉 Reporter smoke test completed
+🎉 Reporter smoke test completed
+🎉 Reporter smoke test completed
+🎉 Reporter smoke test completed

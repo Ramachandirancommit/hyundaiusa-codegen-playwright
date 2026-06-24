@@ -1,0 +1,22 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ Login to MyHyundai - popup handled
+✔ Make a Payment - popup handled
+✔ Bluelink® Multimedia/Map - popup handled
+✔ Owners Manuals - popup handled
+✔ Accessories - popup handled
+✔ Merchandise & Apparel - popup handled
+✔ Safety Recalls - popup handled
+✔ Engine Recalls - popup handled
+✔ Theta Engine Settlement - popup handled
+✔ ABS Module Class Action - popup handled
+✔ Engine II Settlement - popup handled
+✔ Maintenance Schedules - internal handled
+✔ 24/7 Roadside Assistance - internal handled
+✔ Bluelink+ - internal handled
+✔ Written Notice for California - internal handled
+
+🎉 OWNER SECTION FULL NAVIGATION COMPLETED SUCCESSFULLY 🎉

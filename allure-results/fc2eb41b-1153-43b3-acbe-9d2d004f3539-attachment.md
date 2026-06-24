@@ -1,0 +1,1789 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - text: For disability accessibility concerns, please contact us at
+      - link [ref=e5] [cursor=pointer]:
+        - /url: tel:18006335151
+        - text: 1-800-633-5151
+      - text: or
+      - link [ref=e6] [cursor=pointer]:
+        - /url: mailto:accessibility@hmausa.com
+        - text: accessibility@hmausa.com
+      - text: "| Hyundai’s accessibility efforts are guided by WCAG 2.0 AA."
+    - link [ref=e7] [cursor=pointer]:
+      - /url: "#main"
+      - text: Skip to Main Content
+    - generic [ref=e8]:
+      - generic [ref=e10]:
+        - generic [ref=e13]:
+          - link "Hyundai Logo" [ref=e17] [cursor=pointer]:
+            - /url: https://www.hyundaiusa.com/us/en
+            - img [ref=e21]
+          - list [ref=e24]:
+            - listitem [ref=e25]:
+              - button "Vehicles" [ref=e26] [cursor=pointer]:
+                - generic [ref=e27]: Vehicles
+            - listitem [ref=e30]:
+              - button "Shopping Tools" [ref=e31] [cursor=pointer]:
+                - generic [ref=e32]: Shopping Tools
+            - listitem [ref=e35]:
+              - link "Search Inventory" [ref=e36] [cursor=pointer]:
+                - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list
+                - generic [ref=e37]: Search Inventory
+            - listitem [ref=e38]:
+              - link "Build & Price" [ref=e39] [cursor=pointer]:
+                - /url: https://www.hyundaiusa.com/us/en/build
+                - generic [ref=e40]: Build & Price
+            - listitem [ref=e41]:
+              - link "Request a Quote" [ref=e42] [cursor=pointer]:
+                - /url: https://www.hyundaiusa.com/us/en/request-quote
+                - generic [ref=e43]: Request a Quote
+          - generic [ref=e46]:
+            - button "Global Search" [ref=e48] [cursor=pointer]
+            - button "Global Saved" [ref=e52] [cursor=pointer]:
+              - generic [ref=e55]: "1"
+            - button "Global Menu" [ref=e58] [cursor=pointer]
+        - generic:
+          - generic [ref=e65]:
+            - generic [ref=e67]:
+              - tablist [ref=e68]:
+                - tab [ref=e70] [cursor=pointer]: Electrified
+                - tab [ref=e72] [cursor=pointer]: SUVs
+                - tab [ref=e74] [cursor=pointer]: Sedans
+                - tab [ref=e76] [cursor=pointer]: Performance
+                - tab [ref=e78] [cursor=pointer]: Future Vehicles
+              - generic [ref=e80]:
+                - link [ref=e82] [cursor=pointer]:
+                  - /url: https://www.hyundaiusa.com/us/en/vehicles?mode=compare
+                  - generic [ref=e84]: Compare All Vehicles
+                - link [ref=e86] [cursor=pointer]:
+                  - /url: https://www.hyundaiusa.com/us/en/certified-used-vehicles
+                  - generic [ref=e88]: Certified Used Vehicles
+                - link [ref=e90] [cursor=pointer]:
+                  - /url: https://www.hyundaiusa.com/us/en/electrified
+                  - generic [ref=e92]: Electrified Advantages
+            - generic [ref=e95]:
+              - generic [ref=e96]:
+                - generic [ref=e98]:
+                  - link [ref=e99] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/elantra-hybrid
+                    - generic [ref=e100]:
+                      - generic [ref=e102]: "2026"
+                      - generic [ref=e103]:
+                        - text: ELANTRA Hybrid
+                        - generic [ref=e104]: ⁠
+                      - generic [ref=e107]:
+                        - text: $25,450 Starting MSRP
+                        - generic [ref=e108]:
+                          - text: ⁠
+                          - button [ref=e109]:
+                            - img
+                      - generic [ref=e110]: $29,800 as shown
+                  - generic [ref=e116]:
+                    - link [ref=e117] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=4006
+                      - generic [ref=e118]: Build
+                      - generic [ref=e121]: "- ELANTRA Hybrid"
+                    - link [ref=e122] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=4006
+                      - generic [ref=e123]: Search Inventory
+                      - generic [ref=e126]: "- ELANTRA Hybrid"
+                - generic [ref=e128]:
+                  - link [ref=e129] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/sonata-hev
+                    - generic [ref=e130]:
+                      - generic [ref=e132]: "2026"
+                      - generic [ref=e133]:
+                        - text: SONATA Hybrid
+                        - generic [ref=e134]: ⁠
+                      - generic [ref=e137]:
+                        - text: $29,200 Starting MSRP
+                        - generic [ref=e138]:
+                          - text: ⁠
+                          - button [ref=e139]:
+                            - img
+                      - generic [ref=e140]: $38,250 as shown
+                  - generic [ref=e146]:
+                    - link [ref=e147] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=2006
+                      - generic [ref=e148]: Build
+                      - generic [ref=e151]: "- SONATA Hybrid"
+                    - link [ref=e152] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=2006
+                      - generic [ref=e153]: Search Inventory
+                      - generic [ref=e156]: "- SONATA Hybrid"
+                - generic [ref=e158]:
+                  - link [ref=e159] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/tucson-hybrid
+                    - generic [ref=e160]:
+                      - generic [ref=e162]: "2026"
+                      - generic [ref=e163]:
+                        - text: TUCSON Hybrid
+                        - generic [ref=e164]: ⁠
+                      - generic [ref=e167]:
+                        - text: $32,450 Starting MSRP
+                        - generic [ref=e168]:
+                          - text: ⁠
+                          - button [ref=e169]:
+                            - img
+                      - generic [ref=e170]: $42,075 as shown
+                  - generic [ref=e176]:
+                    - link [ref=e177] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=8006
+                      - generic [ref=e178]: Build
+                      - generic [ref=e181]: "- TUCSON Hybrid"
+                    - link [ref=e182] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=8006
+                      - generic [ref=e183]: Search Inventory
+                      - generic [ref=e186]: "- TUCSON Hybrid"
+                - generic [ref=e188]:
+                  - link [ref=e189] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/tucson-plug-in-hybrid
+                    - generic [ref=e190]:
+                      - generic [ref=e192]: "2026"
+                      - generic [ref=e193]:
+                        - text: TUCSON Plug-in Hybrid
+                        - generic [ref=e194]: ⁠
+                      - generic [ref=e197]:
+                        - text: $40,325 Starting MSRP
+                        - generic [ref=e198]:
+                          - text: ⁠
+                          - button [ref=e199]:
+                            - img
+                      - generic [ref=e200]: $48,550 as shown
+                  - generic [ref=e206]:
+                    - link [ref=e207] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=8005
+                      - generic [ref=e208]: Build
+                      - generic [ref=e211]: "- TUCSON Plug-in Hybrid"
+                    - link [ref=e212] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=8005
+                      - generic [ref=e213]: Search Inventory
+                      - generic [ref=e216]: "- TUCSON Plug-in Hybrid"
+                - generic [ref=e218]:
+                  - link [ref=e219] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/ioniq-5
+                    - generic [ref=e220]:
+                      - generic [ref=e222]: "2026"
+                      - generic [ref=e223]:
+                        - text: IONIQ 5
+                        - generic [ref=e224]: ⁠
+                      - generic [ref=e227]:
+                        - text: $35,000 Starting MSRP
+                        - generic [ref=e228]:
+                          - text: ⁠
+                          - button [ref=e229]:
+                            - img
+                      - generic [ref=e230]: $45,075 as shown
+                  - generic [ref=e236]:
+                    - link [ref=e237] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=5004
+                      - generic [ref=e238]: Build
+                      - generic [ref=e241]: "- IONIQ 5"
+                    - link [ref=e242] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=5004
+                      - generic [ref=e243]: Search Inventory
+                      - generic [ref=e246]: "- IONIQ 5"
+                - generic [ref=e248]:
+                  - link [ref=e249] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/ioniq-5-n
+                    - generic [ref=e250]:
+                      - generic [ref=e252]: "2025"
+                      - generic [ref=e253]:
+                        - generic [ref=e255]: IONIQ 5
+                        - generic [ref=e257]: ⁠
+                      - generic [ref=e260]:
+                        - text: $66,200 Starting MSRP
+                        - generic [ref=e261]:
+                          - text: ⁠
+                          - button [ref=e262]:
+                            - img
+                      - generic [ref=e263]: $66,200 as shown
+                  - generic [ref=e269]:
+                    - link [ref=e270] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2025&modelName=5008
+                      - generic [ref=e271]: Build
+                      - generic [ref=e274]: "- IONIQ 5"
+                    - link [ref=e275] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2025&modelName=5008
+                      - generic [ref=e276]: Search Inventory
+                      - generic [ref=e279]: "- IONIQ 5"
+                - generic [ref=e281]:
+                  - link [ref=e282] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/santa-fe-hybrid
+                    - generic [ref=e283]:
+                      - generic [ref=e285]: "2026"
+                      - generic [ref=e286]:
+                        - text: SANTA FE Hybrid
+                        - generic [ref=e287]: ⁠
+                      - generic [ref=e290]:
+                        - text: $36,400 Starting MSRP
+                        - generic [ref=e291]:
+                          - text: ⁠
+                          - button [ref=e292]:
+                            - img
+                      - generic [ref=e293]: $48,700 as shown
+                  - generic [ref=e299]:
+                    - link [ref=e300] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=6006
+                      - generic [ref=e301]: Build
+                      - generic [ref=e304]: "- SANTA FE Hybrid"
+                    - link [ref=e305] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=6006
+                      - generic [ref=e306]: Search Inventory
+                      - generic [ref=e309]: "- SANTA FE Hybrid"
+                - generic [ref=e311]:
+                  - link [ref=e312] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/ioniq-6
+                    - generic [ref=e313]:
+                      - generic [ref=e315]: "2025"
+                      - generic [ref=e316]:
+                        - text: IONIQ 6
+                        - generic [ref=e317]: ⁠
+                      - generic [ref=e320]:
+                        - text: $37,850 Starting MSRP
+                        - generic [ref=e321]:
+                          - text: ⁠
+                          - button [ref=e322]:
+                            - img
+                      - generic [ref=e323]: $51,100 as shown
+                  - generic [ref=e329]:
+                    - link [ref=e330] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2025&modelName=A004
+                      - generic [ref=e331]: Build
+                      - generic [ref=e334]: "- IONIQ 6"
+                    - link [ref=e335] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2025&modelName=A004
+                      - generic [ref=e336]: Search Inventory
+                      - generic [ref=e339]: "- IONIQ 6"
+                - generic [ref=e341]:
+                  - link [ref=e342] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/palisade-hybrid
+                    - generic [ref=e343]:
+                      - generic [ref=e345]: "2026"
+                      - generic [ref=e346]:
+                        - text: PALISADE Hybrid
+                        - generic [ref=e347]: ⁠
+                      - generic [ref=e350]:
+                        - text: $44,160 Starting MSRP
+                        - generic [ref=e351]:
+                          - text: ⁠
+                          - button [ref=e352]:
+                            - img
+                      - generic [ref=e353]: $56,780 as shown
+                  - generic [ref=e359]:
+                    - link [ref=e360] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=J006
+                      - generic [ref=e361]: Build
+                      - generic [ref=e364]: "- PALISADE Hybrid"
+                    - link [ref=e365] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=J006
+                      - generic [ref=e366]: Search Inventory
+                      - generic [ref=e369]: "- PALISADE Hybrid"
+                - generic [ref=e371]:
+                  - link [ref=e372] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/ioniq-9
+                    - generic [ref=e373]:
+                      - generic [ref=e375]: "2026"
+                      - generic [ref=e376]:
+                        - text: IONIQ 9
+                        - generic [ref=e377]: ⁠
+                      - generic [ref=e380]:
+                        - text: $58,955 Starting MSRP
+                        - generic [ref=e381]:
+                          - text: ⁠
+                          - button [ref=e382]:
+                            - img
+                      - generic [ref=e383]: $74,990 as shown
+                  - generic [ref=e389]:
+                    - link [ref=e390] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=7004
+                      - generic [ref=e391]: Build
+                      - generic [ref=e394]: "- IONIQ 9"
+                    - link [ref=e395] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=7004
+                      - generic [ref=e396]: Search Inventory
+                      - generic [ref=e399]: "- IONIQ 9"
+              - generic [ref=e400]:
+                - generic [ref=e402]:
+                  - link [ref=e403] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/venue
+                    - generic [ref=e404]:
+                      - generic [ref=e406]: "2026"
+                      - generic [ref=e407]:
+                        - text: VENUE
+                        - generic [ref=e408]: ⁠
+                      - generic [ref=e411]:
+                        - text: $20,550 Starting MSRP
+                        - generic [ref=e412]:
+                          - text: ⁠
+                          - button [ref=e413]:
+                            - img
+                      - generic [ref=e414]: $22,825 as shown
+                  - generic [ref=e420]:
+                    - link [ref=e421] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=3001
+                      - generic [ref=e422]: Build
+                      - generic [ref=e425]: "- VENUE"
+                    - link [ref=e426] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=3001
+                      - generic [ref=e427]: Search Inventory
+                      - generic [ref=e430]: "- VENUE"
+                - generic [ref=e432]:
+                  - link [ref=e433] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/kona
+                    - generic [ref=e434]:
+                      - generic [ref=e436]: "2026"
+                      - generic [ref=e437]:
+                        - text: KONA
+                        - generic [ref=e438]: ⁠
+                      - generic [ref=e441]:
+                        - text: $25,500 Starting MSRP
+                        - generic [ref=e442]:
+                          - text: ⁠
+                          - button [ref=e443]:
+                            - img
+                      - generic [ref=e444]: $32,535 as shown
+                  - generic [ref=e450]:
+                    - link [ref=e451] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=Q001
+                      - generic [ref=e452]: Build
+                      - generic [ref=e455]: "- KONA"
+                    - link [ref=e456] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=Q001
+                      - generic [ref=e457]: Search Inventory
+                      - generic [ref=e460]: "- KONA"
+                - generic [ref=e462]:
+                  - link [ref=e463] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/tucson
+                    - generic [ref=e464]:
+                      - generic [ref=e466]: "2026"
+                      - generic [ref=e467]:
+                        - text: TUCSON
+                        - generic [ref=e468]: ⁠
+                      - generic [ref=e471]:
+                        - text: $29,450 Starting MSRP
+                        - generic [ref=e472]:
+                          - text: ⁠
+                          - button [ref=e473]:
+                            - img
+                      - generic [ref=e474]: $39,425 as shown
+                  - generic [ref=e480]:
+                    - link [ref=e481] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=8001
+                      - generic [ref=e482]: Build
+                      - generic [ref=e485]: "- TUCSON"
+                    - link [ref=e486] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=8001
+                      - generic [ref=e487]: Search Inventory
+                      - generic [ref=e490]: "- TUCSON"
+                - generic [ref=e492]:
+                  - link [ref=e493] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/tucson-hybrid
+                    - generic [ref=e494]:
+                      - generic [ref=e496]: "2026"
+                      - generic [ref=e497]:
+                        - text: TUCSON Hybrid
+                        - generic [ref=e498]: ⁠
+                      - generic [ref=e501]:
+                        - text: $32,450 Starting MSRP
+                        - generic [ref=e502]:
+                          - text: ⁠
+                          - button [ref=e503]:
+                            - img
+                      - generic [ref=e504]: $42,075 as shown
+                  - generic [ref=e510]:
+                    - link [ref=e511] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=8006
+                      - generic [ref=e512]: Build
+                      - generic [ref=e515]: "- TUCSON Hybrid"
+                    - link [ref=e516] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=8006
+                      - generic [ref=e517]: Search Inventory
+                      - generic [ref=e520]: "- TUCSON Hybrid"
+                - generic [ref=e522]:
+                  - link [ref=e523] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/tucson-plug-in-hybrid
+                    - generic [ref=e524]:
+                      - generic [ref=e526]: "2026"
+                      - generic [ref=e527]:
+                        - text: TUCSON Plug-in Hybrid
+                        - generic [ref=e528]: ⁠
+                      - generic [ref=e531]:
+                        - text: $40,325 Starting MSRP
+                        - generic [ref=e532]:
+                          - text: ⁠
+                          - button [ref=e533]:
+                            - img
+                      - generic [ref=e534]: $48,550 as shown
+                  - generic [ref=e540]:
+                    - link [ref=e541] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=8005
+                      - generic [ref=e542]: Build
+                      - generic [ref=e545]: "- TUCSON Plug-in Hybrid"
+                    - link [ref=e546] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=8005
+                      - generic [ref=e547]: Search Inventory
+                      - generic [ref=e550]: "- TUCSON Plug-in Hybrid"
+                - generic [ref=e552]:
+                  - link [ref=e553] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/santa-cruz
+                    - generic [ref=e554]:
+                      - generic [ref=e556]: "2026"
+                      - generic [ref=e557]:
+                        - text: SANTA CRUZ
+                        - generic [ref=e558]: ⁠
+                      - generic [ref=e561]:
+                        - text: $29,750 Starting MSRP
+                        - generic [ref=e562]:
+                          - text: ⁠
+                          - button [ref=e563]:
+                            - img
+                      - generic [ref=e564]: $43,700 as shown
+                  - generic [ref=e570]:
+                    - link [ref=e571] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=9001
+                      - generic [ref=e572]: Build
+                      - generic [ref=e575]: "- SANTA CRUZ"
+                    - link [ref=e576] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=9001
+                      - generic [ref=e577]: Search Inventory
+                      - generic [ref=e580]: "- SANTA CRUZ"
+                - generic [ref=e582]:
+                  - link [ref=e583] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/ioniq-5
+                    - generic [ref=e584]:
+                      - generic [ref=e586]: "2026"
+                      - generic [ref=e587]:
+                        - text: IONIQ 5
+                        - generic [ref=e588]: ⁠
+                      - generic [ref=e591]:
+                        - text: $35,000 Starting MSRP
+                        - generic [ref=e592]:
+                          - text: ⁠
+                          - button [ref=e593]:
+                            - img
+                      - generic [ref=e594]: $45,075 as shown
+                  - generic [ref=e600]:
+                    - link [ref=e601] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=5004
+                      - generic [ref=e602]: Build
+                      - generic [ref=e605]: "- IONIQ 5"
+                    - link [ref=e606] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=5004
+                      - generic [ref=e607]: Search Inventory
+                      - generic [ref=e610]: "- IONIQ 5"
+                - generic [ref=e612]:
+                  - link [ref=e613] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/ioniq-5-n
+                    - generic [ref=e614]:
+                      - generic [ref=e616]: "2025"
+                      - generic [ref=e617]:
+                        - generic [ref=e619]: IONIQ 5
+                        - generic [ref=e621]: ⁠
+                      - generic [ref=e624]:
+                        - text: $66,200 Starting MSRP
+                        - generic [ref=e625]:
+                          - text: ⁠
+                          - button [ref=e626]:
+                            - img
+                      - generic [ref=e627]: $66,200 as shown
+                  - generic [ref=e633]:
+                    - link [ref=e634] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2025&modelName=5008
+                      - generic [ref=e635]: Build
+                      - generic [ref=e638]: "- IONIQ 5"
+                    - link [ref=e639] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2025&modelName=5008
+                      - generic [ref=e640]: Search Inventory
+                      - generic [ref=e643]: "- IONIQ 5"
+                - generic [ref=e645]:
+                  - link [ref=e646] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/santa-fe
+                    - generic [ref=e647]:
+                      - generic [ref=e649]: "2026"
+                      - generic [ref=e650]:
+                        - text: SANTA FE
+                        - generic [ref=e651]: ⁠
+                      - generic [ref=e654]:
+                        - text: $35,050 Starting MSRP
+                        - generic [ref=e655]:
+                          - text: ⁠
+                          - button [ref=e656]:
+                            - img
+                      - generic [ref=e657]: $47,600 as shown
+                  - generic [ref=e663]:
+                    - link [ref=e664] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=6001
+                      - generic [ref=e665]: Build
+                      - generic [ref=e668]: "- SANTA FE"
+                    - link [ref=e669] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=6001
+                      - generic [ref=e670]: Search Inventory
+                      - generic [ref=e673]: "- SANTA FE"
+                - generic [ref=e675]:
+                  - link [ref=e676] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/santa-fe-hybrid
+                    - generic [ref=e677]:
+                      - generic [ref=e679]: "2026"
+                      - generic [ref=e680]:
+                        - text: SANTA FE Hybrid
+                        - generic [ref=e681]: ⁠
+                      - generic [ref=e684]:
+                        - text: $36,400 Starting MSRP
+                        - generic [ref=e685]:
+                          - text: ⁠
+                          - button [ref=e686]:
+                            - img
+                      - generic [ref=e687]: $48,700 as shown
+                  - generic [ref=e693]:
+                    - link [ref=e694] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=6006
+                      - generic [ref=e695]: Build
+                      - generic [ref=e698]: "- SANTA FE Hybrid"
+                    - link [ref=e699] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=6006
+                      - generic [ref=e700]: Search Inventory
+                      - generic [ref=e703]: "- SANTA FE Hybrid"
+                - generic [ref=e705]:
+                  - link [ref=e706] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/palisade
+                    - generic [ref=e707]:
+                      - generic [ref=e709]: "2026"
+                      - generic [ref=e710]:
+                        - text: PALISADE
+                        - generic [ref=e711]: ⁠
+                      - generic [ref=e714]:
+                        - text: $39,435 Starting MSRP
+                        - generic [ref=e715]:
+                          - text: ⁠
+                          - button [ref=e716]:
+                            - img
+                      - generic [ref=e717]: $54,560 as shown
+                  - generic [ref=e723]:
+                    - link [ref=e724] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=J001
+                      - generic [ref=e725]: Build
+                      - generic [ref=e728]: "- PALISADE"
+                    - link [ref=e729] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=J001
+                      - generic [ref=e730]: Search Inventory
+                      - generic [ref=e733]: "- PALISADE"
+                - generic [ref=e735]:
+                  - link [ref=e736] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/palisade-hybrid
+                    - generic [ref=e737]:
+                      - generic [ref=e739]: "2026"
+                      - generic [ref=e740]:
+                        - text: PALISADE Hybrid
+                        - generic [ref=e741]: ⁠
+                      - generic [ref=e744]:
+                        - text: $44,160 Starting MSRP
+                        - generic [ref=e745]:
+                          - text: ⁠
+                          - button [ref=e746]:
+                            - img
+                      - generic [ref=e747]: $56,780 as shown
+                  - generic [ref=e753]:
+                    - link [ref=e754] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=J006
+                      - generic [ref=e755]: Build
+                      - generic [ref=e758]: "- PALISADE Hybrid"
+                    - link [ref=e759] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=J006
+                      - generic [ref=e760]: Search Inventory
+                      - generic [ref=e763]: "- PALISADE Hybrid"
+                - generic [ref=e765]:
+                  - link [ref=e766] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/ioniq-9
+                    - generic [ref=e767]:
+                      - generic [ref=e769]: "2026"
+                      - generic [ref=e770]:
+                        - text: IONIQ 9
+                        - generic [ref=e771]: ⁠
+                      - generic [ref=e774]:
+                        - text: $58,955 Starting MSRP
+                        - generic [ref=e775]:
+                          - text: ⁠
+                          - button [ref=e776]:
+                            - img
+                      - generic [ref=e777]: $74,990 as shown
+                  - generic [ref=e783]:
+                    - link [ref=e784] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=7004
+                      - generic [ref=e785]: Build
+                      - generic [ref=e788]: "- IONIQ 9"
+                    - link [ref=e789] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=7004
+                      - generic [ref=e790]: Search Inventory
+                      - generic [ref=e793]: "- IONIQ 9"
+              - generic [ref=e794]:
+                - generic [ref=e796]:
+                  - link [ref=e797] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/elantra
+                    - generic [ref=e798]:
+                      - generic [ref=e800]: "2026"
+                      - generic [ref=e801]:
+                        - text: ELANTRA
+                        - generic [ref=e802]: ⁠
+                      - generic [ref=e805]:
+                        - text: $22,625 Starting MSRP
+                        - generic [ref=e806]:
+                          - text: ⁠
+                          - button [ref=e807]:
+                            - img
+                      - generic [ref=e808]: $27,175 as shown
+                  - generic [ref=e814]:
+                    - link [ref=e815] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=4001
+                      - generic [ref=e816]: Build
+                      - generic [ref=e819]: "- ELANTRA"
+                    - link [ref=e820] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=4001
+                      - generic [ref=e821]: Search Inventory
+                      - generic [ref=e824]: "- ELANTRA"
+                - generic [ref=e826]:
+                  - link [ref=e827] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/elantra-hybrid
+                    - generic [ref=e828]:
+                      - generic [ref=e830]: "2026"
+                      - generic [ref=e831]:
+                        - text: ELANTRA Hybrid
+                        - generic [ref=e832]: ⁠
+                      - generic [ref=e835]:
+                        - text: $25,450 Starting MSRP
+                        - generic [ref=e836]:
+                          - text: ⁠
+                          - button [ref=e837]:
+                            - img
+                      - generic [ref=e838]: $29,800 as shown
+                  - generic [ref=e844]:
+                    - link [ref=e845] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=4006
+                      - generic [ref=e846]: Build
+                      - generic [ref=e849]: "- ELANTRA Hybrid"
+                    - link [ref=e850] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=4006
+                      - generic [ref=e851]: Search Inventory
+                      - generic [ref=e854]: "- ELANTRA Hybrid"
+                - generic [ref=e856]:
+                  - link [ref=e857] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/elantra-n
+                    - generic [ref=e858]:
+                      - generic [ref=e860]: "2026"
+                      - generic [ref=e861]:
+                        - generic [ref=e863]: ELANTRA
+                        - generic [ref=e865]: ⁠
+                      - generic [ref=e868]:
+                        - text: $35,100 Starting MSRP
+                        - generic [ref=e869]:
+                          - text: ⁠
+                          - button [ref=e870]:
+                            - img
+                      - generic [ref=e871]: $35,100 as shown
+                  - generic [ref=e877]:
+                    - link [ref=e878] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=4008
+                      - generic [ref=e879]: Build
+                      - generic [ref=e882]: "- ELANTRA"
+                    - link [ref=e883] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=4008
+                      - generic [ref=e884]: Search Inventory
+                      - generic [ref=e887]: "- ELANTRA"
+                - generic [ref=e889]:
+                  - link [ref=e890] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/sonata
+                    - generic [ref=e891]:
+                      - generic [ref=e893]: "2026"
+                      - generic [ref=e894]:
+                        - text: SONATA
+                        - generic [ref=e895]: ⁠
+                      - generic [ref=e898]:
+                        - text: $27,450 Starting MSRP
+                        - generic [ref=e899]:
+                          - text: ⁠
+                          - button [ref=e900]:
+                            - img
+                      - generic [ref=e901]: $36,050 as shown
+                  - generic [ref=e907]:
+                    - link [ref=e908] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=2001
+                      - generic [ref=e909]: Build
+                      - generic [ref=e912]: "- SONATA"
+                    - link [ref=e913] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=2001
+                      - generic [ref=e914]: Search Inventory
+                      - generic [ref=e917]: "- SONATA"
+                - generic [ref=e919]:
+                  - link [ref=e920] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/sonata-hev
+                    - generic [ref=e921]:
+                      - generic [ref=e923]: "2026"
+                      - generic [ref=e924]:
+                        - text: SONATA Hybrid
+                        - generic [ref=e925]: ⁠
+                      - generic [ref=e928]:
+                        - text: $29,200 Starting MSRP
+                        - generic [ref=e929]:
+                          - text: ⁠
+                          - button [ref=e930]:
+                            - img
+                      - generic [ref=e931]: $38,250 as shown
+                  - generic [ref=e937]:
+                    - link [ref=e938] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=2006
+                      - generic [ref=e939]: Build
+                      - generic [ref=e942]: "- SONATA Hybrid"
+                    - link [ref=e943] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=2006
+                      - generic [ref=e944]: Search Inventory
+                      - generic [ref=e947]: "- SONATA Hybrid"
+                - generic [ref=e949]:
+                  - link [ref=e950] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/ioniq-6
+                    - generic [ref=e951]:
+                      - generic [ref=e953]: "2025"
+                      - generic [ref=e954]:
+                        - text: IONIQ 6
+                        - generic [ref=e955]: ⁠
+                      - generic [ref=e958]:
+                        - text: $37,850 Starting MSRP
+                        - generic [ref=e959]:
+                          - text: ⁠
+                          - button [ref=e960]:
+                            - img
+                      - generic [ref=e961]: $51,100 as shown
+                  - generic [ref=e967]:
+                    - link [ref=e968] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2025&modelName=A004
+                      - generic [ref=e969]: Build
+                      - generic [ref=e972]: "- IONIQ 6"
+                    - link [ref=e973] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2025&modelName=A004
+                      - generic [ref=e974]: Search Inventory
+                      - generic [ref=e977]: "- IONIQ 6"
+              - generic [ref=e978]:
+                - generic [ref=e980]:
+                  - link [ref=e981] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/ioniq-5-n
+                    - generic [ref=e982]:
+                      - generic [ref=e984]: "2025"
+                      - generic [ref=e985]:
+                        - generic [ref=e987]: IONIQ 5
+                        - generic [ref=e989]: ⁠
+                      - generic [ref=e992]:
+                        - text: $66,200 Starting MSRP
+                        - generic [ref=e993]:
+                          - text: ⁠
+                          - button [ref=e994]:
+                            - img
+                      - generic [ref=e995]: $66,200 as shown
+                  - generic [ref=e1001]:
+                    - link [ref=e1002] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2025&modelName=5008
+                      - generic [ref=e1003]: Build
+                      - generic [ref=e1006]: "- IONIQ 5"
+                    - link [ref=e1007] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2025&modelName=5008
+                      - generic [ref=e1008]: Search Inventory
+                      - generic [ref=e1011]: "- IONIQ 5"
+                - generic [ref=e1013]:
+                  - link [ref=e1014] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/elantra-n
+                    - generic [ref=e1015]:
+                      - generic [ref=e1017]: "2026"
+                      - generic [ref=e1018]:
+                        - generic [ref=e1020]: ELANTRA
+                        - generic [ref=e1022]: ⁠
+                      - generic [ref=e1025]:
+                        - text: $35,100 Starting MSRP
+                        - generic [ref=e1026]:
+                          - text: ⁠
+                          - button [ref=e1027]:
+                            - img
+                      - generic [ref=e1028]: $35,100 as shown
+                  - generic [ref=e1034]:
+                    - link [ref=e1035] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build/options?modelYear=2026&modelName=4008
+                      - generic [ref=e1036]: Build
+                      - generic [ref=e1039]: "- ELANTRA"
+                    - link [ref=e1040] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelYear=2026&modelName=4008
+                      - generic [ref=e1041]: Search Inventory
+                      - generic [ref=e1044]: "- ELANTRA"
+              - generic [ref=e1045]:
+                - generic [ref=e1047]:
+                  - link [ref=e1049] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/boulder-concept
+                    - img [ref=e1051]
+                  - generic:
+                    - generic: Concept vehicle
+                    - generic:
+                      - text: Boulder Concept
+                      - generic:
+                        - text: ⁠
+                        - button [ref=e1053] [cursor=pointer]:
+                          - img
+                    - link [ref=e1054] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/vehicles/boulder-concept
+                      - text: Learn more
+                      - generic [ref=e1055]: "- about Boulder Concept"
+                - generic [ref=e1057]:
+                  - link [ref=e1059] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/ioniq-6-n
+                    - img [ref=e1061]
+                  - generic:
+                    - generic:
+                      - text: IONIQ 6 N
+                      - generic:
+                        - text: ⁠
+                        - button [ref=e1063] [cursor=pointer]:
+                          - img
+                    - link [ref=e1064] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/vehicles/ioniq-6-n
+                      - text: Learn more
+                      - generic [ref=e1065]: "- about IONIQ 6 N"
+                - generic [ref=e1067]:
+                  - link [ref=e1069] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/vehicles/crater-ev-concept
+                    - img [ref=e1071]
+                  - generic:
+                    - generic: Concept vehicle
+                    - generic:
+                      - text: CRATER Concept
+                      - generic:
+                        - text: ⁠
+                        - button [ref=e1073] [cursor=pointer]:
+                          - img
+                    - link [ref=e1074] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/vehicles/crater-ev-concept
+                      - text: Learn more
+                      - generic [ref=e1075]: "- about CRATER Concept"
+          - generic [ref=e1078]:
+            - generic [ref=e1081]:
+              - generic [ref=e1082]:
+                - generic [ref=e1083]: Shop
+                - list [ref=e1084]:
+                  - listitem [ref=e1085]:
+                    - link [ref=e1086] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list
+                      - text: Search Inventory
+                      - generic [ref=e1087]: ⁠
+                  - listitem [ref=e1090]:
+                    - link [ref=e1091] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/build
+                      - text: Build & Price
+                      - generic [ref=e1092]: ⁠
+                  - listitem [ref=e1095]:
+                    - link [ref=e1096] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/offers
+                      - text: Offers & Promotions
+                      - generic [ref=e1097]: ⁠
+                  - listitem [ref=e1100]:
+                    - link [ref=e1101] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/test-drive
+                      - text: Test Drive
+                      - generic [ref=e1102]: ⁠
+                  - listitem [ref=e1105]:
+                    - link [ref=e1106] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/electrified
+                      - text: Electrified Advantages
+                      - generic [ref=e1107]: ⁠
+                  - listitem [ref=e1110]:
+                    - link [ref=e1111] [cursor=pointer]:
+                      - /url: https://www.hyundaiaccessories.com/
+                      - text: Accessories
+                      - generic [ref=e1112]: ⁠
+                  - listitem [ref=e1115]:
+                    - link [ref=e1116] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/vehicles?mode=compare
+                      - text: Compare Hyundai Vehicles
+                      - generic [ref=e1117]: ⁠
+                  - listitem [ref=e1120]:
+                    - link [ref=e1121] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/compare-competitors
+                      - text: Compare Competitor Vehicles
+                      - generic [ref=e1122]: ⁠
+                  - listitem [ref=e1125]:
+                    - link [ref=e1126] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/guided-tour
+                      - text: Hyundai Showroom Live
+                      - generic [ref=e1127]: ⁠
+              - generic [ref=e1130]:
+                - generic [ref=e1131]: Finance
+                - list [ref=e1132]:
+                  - listitem [ref=e1133]:
+                    - link [ref=e1134] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/request-quote
+                      - text: Request a Quote
+                      - generic [ref=e1135]: ⁠
+                  - listitem [ref=e1138]:
+                    - link [ref=e1139] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/payment-calculator
+                      - text: Payment Calculator
+                      - generic [ref=e1140]: ⁠
+                  - listitem [ref=e1143]:
+                    - link [ref=e1144] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/apply-for-credit
+                      - text: Apply for Credit
+                      - generic [ref=e1145]: ⁠
+                  - listitem [ref=e1148]:
+                    - link [ref=e1149] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/trade-in-value
+                      - text: Estimate Trade-in Value
+                      - generic [ref=e1150]: ⁠
+              - generic [ref=e1153]:
+                - generic [ref=e1154]: Contact
+                - list [ref=e1155]:
+                  - listitem [ref=e1156]:
+                    - link [ref=e1157] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/help-center
+                      - text: FAQs
+                      - generic [ref=e1158]: ⁠
+                  - listitem [ref=e1161]:
+                    - link [ref=e1162] [cursor=pointer]:
+                      - /url: https://owners.hyundaiusa.com/us/en/contact-us.html
+                      - text: Contact Hyundai
+                      - generic [ref=e1163]: ⁠
+            - generic [ref=e1169]:
+              - generic [ref=e1170]:
+                - generic [ref=e1171]:
+                  - generic [ref=e1172]:
+                    - img
+                  - generic [ref=e1173]: Nearest Dealer
+                - generic [ref=e1174]: 3.5 mi. from 10010
+              - generic [ref=e1175]:
+                - generic [ref=e1177]: Koeppel Hyundai
+                - link [ref=e1179] [cursor=pointer]:
+                  - /url: tel:7183616900
+                  - text: (718) 361-6900
+                  - generic [ref=e1180]:
+                    - text: ⁠
+                    - generic [ref=e1182]:
+                      - img
+              - generic [ref=e1183]:
+                - generic [ref=e1184]:
+                  - generic [ref=e1185]: 34-54 44Th Street
+                  - generic [ref=e1186]: Long Island City, NY 11101
+                - link [ref=e1188] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/dir/?api=1&hl=en&destination=34-54%2044Th%20Street%2C%20Long%20Island%20City%2C%20NY%2011101
+                  - text: Get Directions
+                  - generic [ref=e1189]:
+                    - text: ⁠
+                    - generic [ref=e1191]:
+                      - img
+              - link [ref=e1194] [cursor=pointer]:
+                - /url: https://www.hyundaiusa.com/us/en/dealer-locator
+                - text: View All Dealers
+                - generic [ref=e1195]:
+                  - text: ⁠
+                  - generic [ref=e1197]:
+                    - img
+          - generic [ref=e1202]:
+            - generic [ref=e1203]:
+              - generic [ref=e1204]: Search Hyundai vehicles, programs and services
+              - generic [ref=e1205]:
+                - button "Submit Search" [ref=e1206] [cursor=pointer]:
+                  - generic [ref=e1207]:
+                    - img
+                - searchbox "Search Hyundai vehicles, programs and services" [ref=e1208]
+            - generic [ref=e1210]:
+              - generic [ref=e1211]:
+                - generic [ref=e1212]:
+                  - img
+                - generic [ref=e1213]: Popular searches
+              - generic [ref=e1214]:
+                - link "Bluelink+" [ref=e1216] [cursor=pointer]:
+                  - /url: https://www.hyundaiusa.com/us/en/search?q=Bluelink+
+                  - generic [ref=e1217]:
+                    - img
+                  - generic [ref=e1218]: Bluelink+
+                - link "Sonata" [ref=e1220] [cursor=pointer]:
+                  - /url: https://www.hyundaiusa.com/us/en/search?q=Sonata
+                  - generic [ref=e1221]:
+                    - img
+                  - generic [ref=e1222]: Sonata
+                - link "Compare Vehicles" [ref=e1224] [cursor=pointer]:
+                  - /url: "https://www.hyundaiusa.com/us/en/search?q=Compare Vehicles\t"
+                  - generic [ref=e1225]:
+                    - img
+                  - generic [ref=e1226]: Compare Vehicles
+                - link "IONIQ 5" [ref=e1228] [cursor=pointer]:
+                  - /url: https://www.hyundaiusa.com/us/en/search?q=IONIQ 5
+                  - generic [ref=e1229]:
+                    - img
+                  - generic [ref=e1230]: IONIQ 5
+                - link "Tucson" [ref=e1232] [cursor=pointer]:
+                  - /url: https://www.hyundaiusa.com/us/en/search?q=Tucson
+                  - generic [ref=e1233]:
+                    - img
+                  - generic [ref=e1234]: Tucson
+                - link "Financing" [ref=e1236] [cursor=pointer]:
+                  - /url: https://www.hyundaiusa.com/us/en/search?q=Financing
+                  - generic [ref=e1237]:
+                    - img
+                  - generic [ref=e1238]: Financing
+                - link "Elantra" [ref=e1240] [cursor=pointer]:
+                  - /url: https://www.hyundaiusa.com/us/en/search?q=Elantra
+                  - generic [ref=e1241]:
+                    - img
+                  - generic [ref=e1242]: Elantra
+                - link "Offer & Lease Deals" [ref=e1244] [cursor=pointer]:
+                  - /url: https://www.hyundaiusa.com/us/en/search?q=Offer & Lease Deals
+                  - generic [ref=e1245]:
+                    - img
+                  - generic [ref=e1246]: Offer & Lease Deals
+                - link "Kona" [ref=e1248] [cursor=pointer]:
+                  - /url: https://www.hyundaiusa.com/us/en/search?q=Kona
+                  - generic [ref=e1249]:
+                    - img
+                  - generic [ref=e1250]: Kona
+                - link "IONIQ 6" [ref=e1252] [cursor=pointer]:
+                  - /url: https://www.hyundaiusa.com/us/en/search?q=IONIQ 6
+                  - generic [ref=e1253]:
+                    - img
+                  - generic [ref=e1254]: IONIQ 6
+                - link "Santa Fe" [ref=e1256] [cursor=pointer]:
+                  - /url: https://www.hyundaiusa.com/us/en/search?q=Santa Fe
+                  - generic [ref=e1257]:
+                    - img
+                  - generic [ref=e1258]: Santa Fe
+                - link "Dealer Locator" [ref=e1260] [cursor=pointer]:
+                  - /url: https://www.hyundaiusa.com/us/en/search?q=Dealer Locator
+                  - generic [ref=e1261]:
+                    - img
+                  - generic [ref=e1262]: Dealer Locator
+          - generic [ref=e1266]:
+            - generic [ref=e1267]:
+              - generic [ref=e1268]:
+                - button "Builds 1" [ref=e1269] [cursor=pointer]:
+                  - generic [ref=e1270]: Builds
+                  - generic [ref=e1271]: "1"
+                - button "New inventory" [ref=e1272] [cursor=pointer]:
+                  - generic [ref=e1273]: New inventory
+                - button "Certified used" [ref=e1274] [cursor=pointer]:
+                  - generic [ref=e1275]: Certified used
+              - generic [ref=e1278]: 1-1 of 1 saves
+            - group "1 / 1" [ref=e1285]:
+              - generic [ref=e1286]:
+                - generic [ref=e1288]:
+                  - generic [ref=e1290]:
+                    - button [ref=e1292] [cursor=pointer]:
+                      - img
+                    - generic [ref=e1293]: Saved on 06/23/26
+                  - img [ref=e1295]
+                  - generic [ref=e1296]:
+                    - generic [ref=e1297]:
+                      - generic [ref=e1298]: "2026"
+                      - generic [ref=e1299]: PALISADE
+                      - generic [ref=e1300]: SE
+                    - generic [ref=e1301]:
+                      - generic [ref=e1302]:
+                        - text: Total MSRP
+                        - button "msrp-text-disclaimer" [ref=e1304] [cursor=pointer]:
+                          - img
+                      - generic [ref=e1305]: $41,035
+                - generic [ref=e1307]:
+                  - generic [ref=e1311]: ecotronic gray
+                  - generic [ref=e1312]:
+                    - img [ref=e1314]
+                    - generic [ref=e1315]: black
+                - button "View full specs" [ref=e1318] [cursor=pointer]
+                - generic [ref=e1319]:
+                  - generic [ref=e1320]:
+                    - generic [ref=e1321]: Drivetrain
+                    - generic [ref=e1322]: FWD
+                  - generic [ref=e1323]:
+                    - generic [ref=e1324]: Accessories
+                    - generic [ref=e1325]: 0 Selected
+                - link "View build" [ref=e1328] [cursor=pointer]:
+                  - /url: https://www.hyundaiusa.com/us/en/build/options?modelName=J001&modelYear=2026
+            - generic [ref=e1329]:
+              - button "Clear all" [ref=e1331] [cursor=pointer]
+              - paragraph [ref=e1334]:
+                - text: Don't see a vehicle you saved? We rely on cookies to remember your vehicle information for you. Please read our
+                - link "cookie policy" [ref=e1335] [cursor=pointer]:
+                  - /url: /us/en/privacy-policy
+                - text: for more information.
+          - generic [ref=e1337]:
+            - generic [ref=e1340]:
+              - generic [ref=e1341]:
+                - generic [ref=e1342]:
+                  - generic [ref=e1343]: Why Hyundai
+                  - generic [ref=e1344]:
+                    - link "Overview ⁠" [ref=e1346] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/why-hyundai
+                      - text: Overview
+                      - generic [ref=e1347]:
+                        - text: ⁠
+                        - generic [ref=e1349]:
+                          - img
+                    - link "Hyundai in America ⁠" [ref=e1351] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/why-hyundai/hyundai-in-america
+                      - text: Hyundai in America
+                      - generic [ref=e1352]:
+                        - text: ⁠
+                        - generic [ref=e1354]:
+                          - img
+                    - link "Building for Tomorrow ⁠" [ref=e1356] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/why-hyundai/building-for-tomorrow
+                      - text: Building for Tomorrow
+                      - generic [ref=e1357]:
+                        - text: ⁠
+                        - generic [ref=e1359]:
+                          - img
+                    - link "Shopper Assurance ⁠" [ref=e1361] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/shopper-assurance
+                      - text: Shopper Assurance
+                      - generic [ref=e1362]:
+                        - text: ⁠
+                        - generic [ref=e1364]:
+                          - img
+                - generic [ref=e1365]:
+                  - generic [ref=e1366]: Innovation
+                  - generic [ref=e1367]:
+                    - link "Safety ⁠" [ref=e1369] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/safety
+                      - text: Safety
+                      - generic [ref=e1370]:
+                        - text: ⁠
+                        - generic [ref=e1372]:
+                          - img
+                    - link "Technology ⁠" [ref=e1374] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/technology
+                      - text: Technology
+                      - generic [ref=e1375]:
+                        - text: ⁠
+                        - generic [ref=e1377]:
+                          - img
+              - generic [ref=e1378]:
+                - generic [ref=e1379]:
+                  - generic [ref=e1380]: About Us
+                  - generic [ref=e1381]:
+                    - link "FAQs ⁠" [ref=e1383] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/help-center
+                      - text: FAQs
+                      - generic [ref=e1384]:
+                        - text: ⁠
+                        - generic [ref=e1386]:
+                          - img
+                    - link "Contact Hyundai ⁠" [ref=e1388] [cursor=pointer]:
+                      - /url: https://owners.hyundaiusa.com/us/en/contact-us
+                      - text: Contact Hyundai
+                      - generic [ref=e1389]:
+                        - text: ⁠
+                        - generic [ref=e1391]:
+                          - img
+                    - link "Auto Shows ⁠" [ref=e1393] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/auto-shows
+                      - text: Auto Shows
+                      - generic [ref=e1394]:
+                        - text: ⁠
+                        - generic [ref=e1396]:
+                          - img
+                - generic [ref=e1397]:
+                  - generic [ref=e1398]: Owners
+                  - generic [ref=e1399]:
+                    - link "Ownership Resources ⁠" [ref=e1401] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/owners
+                      - text: Ownership Resources
+                      - generic [ref=e1402]:
+                        - text: ⁠
+                        - generic [ref=e1404]:
+                          - img
+                    - link "Login to My Hyundai ⁠" [ref=e1406] [cursor=pointer]:
+                      - /url: https://owners.hyundaiusa.com/us/en/index?origUri=/content/myhyundai/us/en/page/dashboard.html
+                      - text: Login to My Hyundai
+                      - generic [ref=e1407]:
+                        - text: ⁠
+                        - generic [ref=e1409]:
+                          - img
+                    - link "Accessories ⁠" [ref=e1411] [cursor=pointer]:
+                      - /url: https://www.hyundaiaccessories.com/
+                      - text: Accessories
+                      - generic [ref=e1412]:
+                        - text: ⁠
+                        - generic [ref=e1414]:
+                          - img
+                    - link "Schedule Service ⁠" [ref=e1416] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/dealer-locator?service=true
+                      - text: Schedule Service
+                      - generic [ref=e1417]:
+                        - text: ⁠
+                        - generic [ref=e1419]:
+                          - img
+                    - link "America's Best Warranty ⁠" [ref=e1421] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/assurance/america-best-warranty
+                      - text: America's Best Warranty
+                      - generic [ref=e1422]:
+                        - text: ⁠
+                        - generic [ref=e1424]:
+                          - img
+                    - link "24/7 Roadside Assistance ⁠" [ref=e1426] [cursor=pointer]:
+                      - /url: https://www.hyundaiusa.com/us/en/assurance/roadside-assistance
+                      - text: 24/7 Roadside Assistance
+                      - generic [ref=e1427]:
+                        - text: ⁠
+                        - generic [ref=e1429]:
+                          - img
+            - generic [ref=e1432]:
+              - generic [ref=e1433]:
+                - generic [ref=e1434]:
+                  - generic [ref=e1435]:
+                    - img "hidden"
+                  - generic [ref=e1436]: Nearest Dealer
+                - generic [ref=e1437]: 3.5 mi. from 10010
+              - generic [ref=e1438]:
+                - generic [ref=e1440]: Koeppel Hyundai
+                - link "(718) 361-6900 ⁠" [ref=e1442] [cursor=pointer]:
+                  - /url: tel:7183616900
+                  - text: (718) 361-6900
+                  - generic [ref=e1443]:
+                    - text: ⁠
+                    - generic [ref=e1445]:
+                      - img
+              - generic [ref=e1446]:
+                - generic [ref=e1447]:
+                  - generic [ref=e1448]: 34-54 44Th Street
+                  - generic [ref=e1449]: Long Island City, NY 11101
+                - link "Get Directions ⁠" [ref=e1451] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/dir/?api=1&hl=en&destination=34-54%2044Th%20Street%2C%20Long%20Island%20City%2C%20NY%2011101
+                  - text: Get Directions
+                  - generic [ref=e1452]:
+                    - text: ⁠
+                    - generic [ref=e1454]:
+                      - img
+              - link "View All Dealers ⁠" [ref=e1457] [cursor=pointer]:
+                - /url: https://www.hyundaiusa.com/us/en/dealer-locator
+                - text: View All Dealers
+                - generic [ref=e1458]:
+                  - text: ⁠
+                  - generic [ref=e1460]:
+                    - img
+      - main [ref=e1463]:
+        - generic [ref=e1468]:
+          - generic [ref=e1474]:
+            - generic [ref=e1479]:
+              - generic [ref=e1481]:
+                - generic [ref=e1482]:
+                  - button "hidden" [ref=e1483] [cursor=pointer]:
+                    - img "hidden"
+                  - generic [ref=e1485]: 2026 PALISADE SE
+                - generic [ref=e1486]:
+                  - button "hidden" [active] [ref=e1487] [cursor=pointer]:
+                    - img "hidden"
+                  - generic [ref=e1488]:
+                    - text: Saved!
+                    - button "See all" [ref=e1489] [cursor=pointer]
+                  - button "hidden" [ref=e1490] [cursor=pointer]:
+                    - img "hidden"
+              - generic [ref=e1495]: Vehicle shown for illustrative purposes only. Actual model may vary.⁠
+              - generic [ref=e1497]:
+                - generic [ref=e1499]:
+                  - img
+                - generic [ref=e1500]:
+                  - button [ref=e1501] [cursor=pointer]:
+                    - generic [ref=e1502]:
+                      - img
+                  - button [ref=e1503] [cursor=pointer]:
+                    - generic [ref=e1504]:
+                      - img
+                  - button [ref=e1505] [cursor=pointer]
+                  - button [ref=e1506] [cursor=pointer]
+            - generic [ref=e1508]:
+              - generic [ref=e1509]:
+                - generic [ref=e1510]:
+                  - button "Trim" [ref=e1511] [cursor=pointer]
+                  - button "Colors" [ref=e1512] [cursor=pointer]
+                  - button "Drivetrain" [ref=e1513] [cursor=pointer]
+                  - button "Add-Ons" [ref=e1514] [cursor=pointer]
+                  - button "Summary" [ref=e1515] [cursor=pointer]
+                - generic [ref=e1517]:
+                  - generic [ref=e1518]:
+                    - generic [ref=e1519]: 7 trims available
+                    - generic [ref=e1520]:
+                      - generic [ref=e1521]:
+                        - generic [ref=e1523]:
+                          - generic [ref=e1524] [cursor=pointer]:
+                            - radio "SE" [ref=e1525]
+                            - radio "SE" [checked] [ref=e1526]
+                          - generic [ref=e1527] [cursor=pointer]: SE
+                        - generic [ref=e1528]:
+                          - generic [ref=e1529]:
+                            - generic [ref=e1530]: Starting MSRP
+                            - button "placeholder" [ref=e1531] [cursor=pointer]:
+                              - img
+                          - generic [ref=e1532]: $39,435
+                      - generic [ref=e1533]:
+                        - generic [ref=e1534]: 287-hp 3.5-liter V6
+                        - generic [ref=e1535]: 12.3-inch touchscreen display with navigation
+                        - generic [ref=e1536]: SmartSense Safety Suite
+                      - generic [ref=e1537]:
+                        - button "View Full Specs" [ref=e1538] [cursor=pointer]
+                        - button "Compare" [ref=e1539] [cursor=pointer]:
+                          - generic [ref=e1541]:
+                            - img
+                          - generic [ref=e1542]: Compare
+                    - generic [ref=e1543]:
+                      - generic [ref=e1544]:
+                        - generic [ref=e1546]:
+                          - generic [ref=e1547] [cursor=pointer]:
+                            - radio "SEL" [ref=e1548]
+                            - radio "SEL" [ref=e1549]
+                          - generic [ref=e1550] [cursor=pointer]: SEL
+                        - generic [ref=e1551]:
+                          - generic [ref=e1552]:
+                            - generic [ref=e1553]: Starting MSRP
+                            - button "placeholder" [ref=e1554] [cursor=pointer]:
+                              - img
+                          - generic [ref=e1555]: $41,940
+                      - generic [ref=e1556]:
+                        - generic [ref=e1557]: 287-hp 3.5-liter V6
+                        - generic [ref=e1558]: H-Tex® trimmed-seats
+                        - generic [ref=e1559]: 2nd-row captain's chairs
+                      - generic [ref=e1560]:
+                        - button "View Full Specs" [ref=e1561] [cursor=pointer]
+                        - button "Compare" [ref=e1562] [cursor=pointer]:
+                          - generic [ref=e1564]:
+                            - img
+                          - generic [ref=e1565]: Compare
+                    - generic [ref=e1566]:
+                      - generic [ref=e1567]:
+                        - generic [ref=e1569]:
+                          - generic [ref=e1570] [cursor=pointer]:
+                            - radio "SEL Convenience" [ref=e1571]
+                            - radio "SEL Convenience" [ref=e1572]
+                          - generic [ref=e1573] [cursor=pointer]: SEL Convenience
+                        - generic [ref=e1574]:
+                          - generic [ref=e1575]:
+                            - generic [ref=e1576]: Starting MSRP
+                            - button "placeholder" [ref=e1577] [cursor=pointer]:
+                              - img
+                          - generic [ref=e1578]: $43,370
+                      - generic [ref=e1579]:
+                        - generic [ref=e1580]: 287-hp 3.5-liter V6
+                        - generic [ref=e1581]: Power sunroof
+                        - generic [ref=e1582]: 8-way power passenger seat
+                      - generic [ref=e1583]:
+                        - button "View Full Specs" [ref=e1584] [cursor=pointer]
+                        - button "Compare" [ref=e1585] [cursor=pointer]:
+                          - generic [ref=e1587]:
+                            - img
+                          - generic [ref=e1588]: Compare
+                    - generic [ref=e1589]:
+                      - generic [ref=e1590]:
+                        - generic [ref=e1592]:
+                          - generic [ref=e1593] [cursor=pointer]:
+                            - radio "SEL Premium" [ref=e1594]
+                            - radio "SEL Premium" [ref=e1595]
+                          - generic [ref=e1596] [cursor=pointer]: SEL Premium
+                        - generic [ref=e1597]:
+                          - generic [ref=e1598]:
+                            - generic [ref=e1599]: Starting MSRP
+                            - button "placeholder" [ref=e1600] [cursor=pointer]:
+                              - img
+                          - generic [ref=e1601]: $45,300
+                      - generic [ref=e1602]:
+                        - generic [ref=e1603]: 287-hp 3.5-liter V6
+                        - generic [ref=e1604]: Surround View Monitor (SVM)
+                        - generic [ref=e1605]: Heated and ventilated front- and 2nd-row seats
+                      - generic [ref=e1606]:
+                        - button "View Full Specs" [ref=e1607] [cursor=pointer]
+                        - button "Compare" [ref=e1608] [cursor=pointer]:
+                          - generic [ref=e1610]:
+                            - img
+                          - generic [ref=e1611]: Compare
+                    - generic [ref=e1612]:
+                      - generic [ref=e1613]:
+                        - generic [ref=e1615]:
+                          - generic [ref=e1616] [cursor=pointer]:
+                            - radio "Limited" [ref=e1617]
+                            - radio "Limited" [ref=e1618]
+                          - generic [ref=e1619] [cursor=pointer]: Limited
+                        - generic [ref=e1620]:
+                          - generic [ref=e1621]:
+                            - generic [ref=e1622]: Starting MSRP
+                            - button "placeholder" [ref=e1623] [cursor=pointer]:
+                              - img
+                          - generic [ref=e1624]: $49,770
+                      - generic [ref=e1625]:
+                        - generic [ref=e1626]: 287-hp 3.5-liter V6
+                        - generic [ref=e1627]: 20-inch alloy wheels
+                        - generic [ref=e1628]: Leather-trimmed seats
+                      - generic [ref=e1629]:
+                        - button "View Full Specs" [ref=e1630] [cursor=pointer]
+                        - button "Compare" [ref=e1631] [cursor=pointer]:
+                          - generic [ref=e1633]:
+                            - img
+                          - generic [ref=e1634]: Compare
+                    - generic [ref=e1635]:
+                      - generic [ref=e1636]:
+                        - generic [ref=e1638]:
+                          - generic [ref=e1639] [cursor=pointer]:
+                            - radio "XRT PRO" [ref=e1640]
+                            - radio "XRT PRO" [ref=e1641]
+                          - generic [ref=e1642] [cursor=pointer]: XRT PRO
+                        - generic [ref=e1643]:
+                          - generic [ref=e1644]:
+                            - generic [ref=e1645]: Starting MSRP
+                            - button "placeholder" [ref=e1646] [cursor=pointer]:
+                              - img
+                          - generic [ref=e1647]: $49,870
+                      - generic [ref=e1648]:
+                        - generic [ref=e1649]: 287-hp 3.5-liter V6
+                        - generic [ref=e1650]: HTRAC All Wheel Drive with Electronic Rear Limited-Slip Differential
+                        - generic [ref=e1651]: All-Terrain tires with increased ground clearance
+                      - generic [ref=e1652]:
+                        - button "View Full Specs" [ref=e1653] [cursor=pointer]
+                        - button "Compare" [ref=e1654] [cursor=pointer]:
+                          - generic [ref=e1656]:
+                            - img
+                          - generic [ref=e1657]: Compare
+                    - generic [ref=e1658]:
+                      - generic [ref=e1659]:
+                        - generic [ref=e1661]:
+                          - generic [ref=e1662] [cursor=pointer]:
+                            - radio "Calligraphy" [ref=e1663]
+                            - radio "Calligraphy" [ref=e1664]
+                          - generic [ref=e1665] [cursor=pointer]: Calligraphy
+                        - generic [ref=e1666]:
+                          - generic [ref=e1667]:
+                            - generic [ref=e1668]: Starting MSRP
+                            - button "placeholder" [ref=e1669] [cursor=pointer]:
+                              - img
+                          - generic [ref=e1670]: $54,560
+                      - generic [ref=e1671]:
+                        - generic [ref=e1672]: 287-hp 3.5-liter V6
+                        - generic [ref=e1673]: 21-inch alloy wheels
+                        - generic [ref=e1674]: Integrated front and rear dashcam
+                      - generic [ref=e1675]:
+                        - button "View Full Specs" [ref=e1676] [cursor=pointer]
+                        - button "Compare" [ref=e1677] [cursor=pointer]:
+                          - generic [ref=e1679]:
+                            - img
+                          - generic [ref=e1680]: Compare
+                  - generic [ref=e1681]:
+                    - generic [ref=e1682]:
+                      - generic [ref=e1683]:
+                        - generic [ref=e1684]: Select an Exterior color
+                        - generic [ref=e1685]: + $0
+                      - generic [ref=e1686]:
+                        - button "Pacific Sapphire" [ref=e1687] [cursor=pointer]:
+                          - generic [ref=e1690]: Pacific Sapphire
+                        - button "Abyss Black" [ref=e1691] [cursor=pointer]:
+                          - generic [ref=e1694]: Abyss Black
+                        - button "Galaxy Maroon" [ref=e1695] [cursor=pointer]:
+                          - generic [ref=e1698]: Galaxy Maroon
+                        - button "Ecotronic Gray" [ref=e1699] [cursor=pointer]:
+                          - generic [ref=e1702]: Ecotronic Gray
+                        - button "Creamy White" [ref=e1703] [cursor=pointer]:
+                          - generic [ref=e1706]: Creamy White
+                    - generic [ref=e1707]:
+                      - generic [ref=e1708]:
+                        - generic [ref=e1709]: Select an Interior color
+                        - generic [ref=e1710]: + $0
+                      - generic [ref=e1711]:
+                        - button "Black" [ref=e1712] [cursor=pointer]:
+                          - generic [ref=e1715]: Black
+                        - button "Gray" [ref=e1716] [cursor=pointer]:
+                          - generic [ref=e1719]: Gray
+                  - generic [ref=e1720]:
+                    - generic [ref=e1721]: Select a drivetrain
+                    - generic [ref=e1722]:
+                      - generic [ref=e1723]:
+                        - generic [ref=e1725]:
+                          - generic [ref=e1726] [cursor=pointer]:
+                            - radio [ref=e1727]
+                            - radio [ref=e1728]
+                          - generic [ref=e1729]: front wheel drive⁠
+                        - generic [ref=e1731]: + $0
+                      - generic [ref=e1732]:
+                        - paragraph [ref=e1735]: SE 3.5L V6 GDI engine with 8-speed Automatic Transmission
+                        - generic [ref=e1737]: Automatic
+                        - generic [ref=e1738]:
+                          - generic [ref=e1739]: "FWD: 19 City/25 Highway/21 Combined"
+                          - button "drivetrain learn more" [ref=e1740] [cursor=pointer]:
+                            - img "hidden"
+                    - generic [ref=e1741]:
+                      - generic [ref=e1742]:
+                        - generic [ref=e1744]:
+                          - generic [ref=e1745] [cursor=pointer]:
+                            - radio [ref=e1746]
+                            - radio [ref=e1747]
+                          - generic [ref=e1748]: all wheel drive⁠
+                        - generic [ref=e1750]: + $2,000
+                      - generic [ref=e1751]:
+                        - paragraph [ref=e1754]: SE 3.5L V6 GDI engine with 8-speed Automatic Transmission HTRAC AWD
+                        - generic [ref=e1756]: Automatic
+                        - generic [ref=e1757]:
+                          - generic [ref=e1758]: "AWD: 18 City/24 Highway/20 Combined"
+                          - button "drivetrain learn more" [ref=e1759] [cursor=pointer]:
+                            - img "hidden"
+                  - generic [ref=e1761]:
+                    - generic [ref=e1762]: Select accessories
+                    - generic [ref=e1763]:
+                      - generic [ref=e1769]:
+                        - text: 100W Charging Cable⁠
+                        - button "placeholder" [ref=e1770] [cursor=pointer]:
+                          - generic [ref=e1771]: "?"
+                      - generic [ref=e1772]: + $50
+                    - generic [ref=e1773]:
+                      - generic [ref=e1779]:
+                        - text: All-season fitted liners⁠
+                        - button "placeholder" [ref=e1780] [cursor=pointer]:
+                          - generic [ref=e1781]: "?"
+                      - generic [ref=e1782]: + $280
+                    - generic [ref=e1783]:
+                      - generic [ref=e1789]:
+                        - text: Cargo block⁠
+                        - button "placeholder" [ref=e1790] [cursor=pointer]:
+                          - generic [ref=e1791]: "?"
+                      - generic [ref=e1792]: + $30
+                    - generic [ref=e1793]:
+                      - generic [ref=e1799]:
+                        - text: Cargo screen⁠
+                        - button "placeholder" [ref=e1800] [cursor=pointer]:
+                          - generic [ref=e1801]: "?"
+                      - generic [ref=e1802]: + $205
+                    - generic [ref=e1803]:
+                      - generic [ref=e1809]:
+                        - text: Up seat back cargo mat⁠
+                        - button "placeholder" [ref=e1810] [cursor=pointer]:
+                          - generic [ref=e1811]: "?"
+                      - generic [ref=e1812]: + $165
+                    - generic [ref=e1813]:
+                      - generic [ref=e1819]:
+                        - text: Cargo net with pouch⁠
+                        - button "placeholder" [ref=e1820] [cursor=pointer]:
+                          - generic [ref=e1821]: "?"
+                      - generic [ref=e1822]: + $60
+                    - generic [ref=e1823]:
+                      - generic [ref=e1829]:
+                        - text: Cargo organizer⁠
+                        - button "placeholder" [ref=e1830] [cursor=pointer]:
+                          - generic [ref=e1831]: "?"
+                      - generic [ref=e1832]: + $130
+                    - generic [ref=e1833]:
+                      - generic [ref=e1839]:
+                        - text: Cargo tray⁠
+                        - button "placeholder" [ref=e1840] [cursor=pointer]:
+                          - generic [ref=e1841]: "?"
+                      - generic [ref=e1842]: + $160
+                    - generic [ref=e1843]:
+                      - generic [ref=e1849]:
+                        - text: Carpeted floor mats⁠
+                        - button "placeholder" [ref=e1850] [cursor=pointer]:
+                          - generic [ref=e1851]: "?"
+                      - generic [ref=e1852]: + $245
+                    - generic [ref=e1853]:
+                      - generic [ref=e1859]:
+                        - text: First aid kit⁠
+                        - button "placeholder" [ref=e1860] [cursor=pointer]:
+                          - generic [ref=e1861]: "?"
+                      - generic [ref=e1862]: + $45
+                    - generic [ref=e1863]:
+                      - generic [ref=e1869]:
+                        - text: Illuminated doorstep plates⁠
+                        - button "placeholder" [ref=e1870] [cursor=pointer]:
+                          - generic [ref=e1871]: "?"
+                      - generic [ref=e1872]: + $375
+                    - generic [ref=e1873]:
+                      - generic [ref=e1879]:
+                        - text: Door panel protector⁠
+                        - button "placeholder" [ref=e1880] [cursor=pointer]:
+                          - generic [ref=e1881]: "?"
+                      - generic [ref=e1882]: + $180
+                    - generic [ref=e1883]:
+                      - generic [ref=e1889]:
+                        - text: Rear bumper applique⁠
+                        - button "placeholder" [ref=e1890] [cursor=pointer]:
+                          - generic [ref=e1891]: "?"
+                      - generic [ref=e1892]: + $80
+                    - generic [ref=e1893]:
+                      - generic [ref=e1899]:
+                        - text: Roadside assistance kit⁠
+                        - button "placeholder" [ref=e1900] [cursor=pointer]:
+                          - generic [ref=e1901]: "?"
+                      - generic [ref=e1902]: + $75
+                    - generic [ref=e1903]:
+                      - generic [ref=e1909]:
+                        - text: Severe weather kit⁠
+                        - button "placeholder" [ref=e1910] [cursor=pointer]:
+                          - generic [ref=e1911]: "?"
+                      - generic [ref=e1912]: + $80
+                    - generic [ref=e1913]:
+                      - generic [ref=e1919]:
+                        - text: Side steps⁠
+                        - button "placeholder" [ref=e1920] [cursor=pointer]:
+                          - generic [ref=e1921]: "?"
+                      - generic [ref=e1922]: + $865
+                    - generic [ref=e1923]:
+                      - generic [ref=e1929]:
+                        - text: Mud guard kit⁠
+                        - button "placeholder" [ref=e1930] [cursor=pointer]:
+                          - generic [ref=e1931]: "?"
+                      - generic [ref=e1932]: + $140
+                    - generic [ref=e1933]:
+                      - generic [ref=e1939]:
+                        - text: Skid plate⁠
+                        - button "placeholder" [ref=e1940] [cursor=pointer]:
+                          - generic [ref=e1941]: "?"
+                      - generic [ref=e1942]: + $265
+                  - generic [ref=e1944]:
+                    - generic [ref=e1945]:
+                      - paragraph [ref=e1946]: View or modify selections
+                      - generic [ref=e1947]:
+                        - button "Print Button" [ref=e1948] [cursor=pointer]:
+                          - generic [ref=e1949]:
+                            - img "hidden"
+                          - generic [ref=e1950]: Print
+                        - button "Share Button" [ref=e1951] [cursor=pointer]:
+                          - generic [ref=e1952]:
+                            - img "hidden"
+                          - generic [ref=e1953]: Share
+                    - text: "? ?"
+                    - generic [ref=e1954]:
+                      - generic [ref=e1956]: Total
+                      - generic [ref=e1957]:
+                        - generic [ref=e1958]: Freight⁠
+                        - generic [ref=e1959]: + $1,600
+                      - generic [ref=e1960]:
+                        - generic [ref=e1961]:
+                          - text: Total MSRP⁠
+                          - button "placeholder" [ref=e1962] [cursor=pointer]:
+                            - img "hidden"
+                        - generic [ref=e1963]: $41,035
+                  - generic [ref=e1965]:
+                    - generic [ref=e1966]:
+                      - generic [ref=e1967]: View Offers
+                      - generic [ref=e1968]:
+                        - generic [ref=e1969]: 1 of 3
+                        - button [disabled]:
+                          - img
+                        - button [ref=e1970] [cursor=pointer]:
+                          - img
+                    - generic [ref=e1973]:
+                      - group "1 / 3" [ref=e1974]:
+                        - generic [ref=e1975]:
+                          - generic [ref=e1976]:
+                            - generic [ref=e1977]: Cash offer
+                            - generic [ref=e1978]:
+                              - generic [ref=e1979]: SE
+                              - generic [ref=e1980]: Up to $1,000
+                              - generic [ref=e1981]: Total Savings
+                          - button "View details" [ref=e1982] [cursor=pointer]:
+                            - generic [ref=e1983]: View details
+                            - img
+                      - group "2 / 3" [ref=e1984]:
+                        - generic [ref=e1985]:
+                          - generic [ref=e1986]:
+                            - generic [ref=e1987]: Finance offer
+                            - generic [ref=e1988]:
+                              - generic [ref=e1989]: SE
+                              - generic [ref=e1990]: 3.99% APR
+                              - generic [ref=e1991]: Financing for up to 60 months
+                          - button "View details" [ref=e1992] [cursor=pointer]:
+                            - generic [ref=e1993]: View details
+                            - img
+                      - group "3 / 3" [ref=e1994]:
+                        - generic [ref=e1995]:
+                          - generic [ref=e1996]:
+                            - generic [ref=e1997]: Lease offer
+                            - generic [ref=e1998]:
+                              - generic [ref=e1999]: SE
+                              - generic [ref=e2000]: $409 /mo
+                              - generic [ref=e2001]: For 36 months with $3,999 due at lease signing
+                          - button "View details" [ref=e2002] [cursor=pointer]:
+                            - generic [ref=e2003]: View details
+                            - img
+                  - generic [ref=e2005]:
+                    - generic [ref=e2006]: Request a quote or contact dealer
+                    - generic [ref=e2007]:
+                      - generic [ref=e2008]:
+                        - generic [ref=e2009]:
+                          - generic [ref=e2010]: "*"
+                          - text: Contact information (*Required)
+                        - generic [ref=e2011]:
+                          - generic [ref=e2012]:
+                            - text: First Name
+                            - generic [ref=e2013]: "*"
+                          - textbox "First Name*" [ref=e2014]
+                        - generic [ref=e2015]:
+                          - generic [ref=e2016]:
+                            - text: Last Name
+                            - generic [ref=e2017]: "*"
+                          - textbox "Last Name*" [ref=e2018]
+                        - generic [ref=e2019]:
+                          - generic [ref=e2020]:
+                            - text: Email
+                            - generic [ref=e2021]: "*"
+                          - textbox "Email*" [ref=e2022]
+                        - generic [ref=e2023]:
+                          - generic [ref=e2024]: Phone*
+                          - textbox "Phone*" [ref=e2025]
+                      - generic [ref=e2027]:
+                        - generic [ref=e2029]: koeppel hyundai
+                        - generic [ref=e2030]:
+                          - generic [ref=e2031]: 3.5 miles from 10010
+                          - button "Change dealer" [ref=e2032] [cursor=pointer]
+                      - button "placeholder" [ref=e2035] [cursor=pointer]:
+                        - generic [ref=e2036]: Additional Comment (optional)
+                        - generic [ref=e2037]:
+                          - img
+                      - generic [ref=e2039]:
+                        - paragraph [ref=e2040]: By submitting your information, you agree to receive communications from Hyundai and allow Hyundai to share your information with Independent Hyundai Dealers.
+                        - paragraph [ref=e2041]
+                        - paragraph [ref=e2042]:
+                          - text: By clicking or tapping the “Contact dealer” button, I acknowledge that I have read the
+                          - link "Privacy Policy" [ref=e2043] [cursor=pointer]:
+                            - /url: /content/hyundai/com/us/en/privacy-policy.html
+                          - text: and agree to the
+                          - link "Terms of Use" [ref=e2044] [cursor=pointer]:
+                            - /url: /content/hyundai/com/us/en/terms-conditions.html
+                          - text: .
+                      - button "Contact dealer" [ref=e2046] [cursor=pointer]
+                      - generic [ref=e2048]:
+                        - text: This site is protected by reCAPTCHA and the Google
+                        - link "Privacy Policy" [ref=e2049] [cursor=pointer]:
+                          - /url: https://policies.google.com/privacy
+                        - text: and
+                        - link "Terms of Service" [ref=e2050] [cursor=pointer]:
+                          - /url: https://policies.google.com/terms
+                        - text: apply.
+              - generic [ref=e2051]:
+                - generic [ref=e2052]:
+                  - button "Lease estimate" [ref=e2053] [cursor=pointer]:
+                    - paragraph [ref=e2055]: Lease estimate
+                  - button "Finance estimate" [ref=e2056] [cursor=pointer]:
+                    - paragraph [ref=e2058]: Finance estimate
+                - generic [ref=e2059]:
+                  - generic [ref=e2061]:
+                    - generic [ref=e2062]: Mo. est. currently unavailable
+                    - generic [ref=e2063]:
+                      - generic [ref=e2064]:
+                        - img
+                      - button "Edit payment" [ref=e2065] [cursor=pointer]
+                  - generic [ref=e2066]:
+                    - generic [ref=e2067]:
+                      - generic: Total MSRP
+                      - button "msrp disclaimer" [ref=e2068] [cursor=pointer]:
+                        - img "hidden"
+                    - generic [ref=e2069]: $41,035
+                - generic [ref=e2070]:
+                  - generic [ref=e2071]:
+                    - img
+                    - button "Update zip code and search radius" [ref=e2072] [cursor=pointer]: 100 miles from 10010
+                  - link "Click inventory button" [ref=e2073] [cursor=pointer]:
+                    - /url: https://www.hyundaiusa.com/us/en/inventory-search/vehicles-list?modelName=J001&modelYear=2026
+                    - text: 1,628 in inventory
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - dialog
+  - generic:
+    - img "close carousel"
+```

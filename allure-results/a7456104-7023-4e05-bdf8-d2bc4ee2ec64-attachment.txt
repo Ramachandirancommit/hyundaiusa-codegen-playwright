@@ -1,0 +1,68 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ Build & Price clicked
+✔ PALISADE selected
+✔ Palisade Build page loaded
+✔ Summary section opened
+✔ Request a Quote opened
+✔ First Name entered
+✔ Last Name entered
+✔ Email entered
+✔ Phone entered
+✔ Consent checked
+✔ Dealer selected
+✔ Additional comment added
+✔ Contact Dealer submitted
+⚠ Flow encountered an error, but test will pass
+locator.waitFor: Test timeout of 300000ms exceeded.
+Call log:
+  - waiting for getByText('Thank you!') to be visible
+
+    at C:\Users\2012018\Documents\hyundaiusa-codegen-playwright\tests\ui\build-price\build-the-vehicle\build-contactdealer.spec.js:86:40 {
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Users\\2012018\\Documents\\hyundaiusa-codegen-playwright\\tests\\ui\\build-price\\build-the-vehicle\\build-contactdealer.spec.js',
+      line: 86,
+      column: 40
+    },
+    category: 'pw:api',
+    title: "Wait for selector getByText('Thank you!')",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: 'internal:text="Thank you!"i',
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@59',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@59',
+      _title: "Wait for selector getByText('Thank you!')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1782224724286,
+    error: {
+      message: 'Error: locator.waitFor: Test timeout of 300000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Thank you!') to be visible\x1B[22m\n",
+      stack: 'Error: locator.waitFor: Test timeout of 300000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Thank you!') to be visible\x1B[22m\n" +
+        '\n' +
+        '    at C:\\Users\\2012018\\Documents\\hyundaiusa-codegen-playwright\\tests\\ui\\build-price\\build-the-vehicle\\build-contactdealer.spec.js:86:40',
+      cause: undefined
+    }
+  }
+}

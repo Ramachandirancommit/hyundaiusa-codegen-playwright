@@ -52,7 +52,7 @@ test('BSI Filter - 2026 Name and Price Validation', async ({ page }) => {
     { name: 'ELANTRA N', price: '$35,100' },
     { name: 'KONA', price: '$25,500' },
     { name: 'SANTA CRUZ', price: '$29,750' }
-  ];
+  ];        
 
   const cards = page.locator(
     '#bsi-vehicle-cards .bsi-model-card-container'

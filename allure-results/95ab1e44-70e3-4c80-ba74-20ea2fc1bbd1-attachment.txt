@@ -1,0 +1,52 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+Redirected to Build and Search Inventory page 🎉
+
+========== 5 SEATER ==========
+
+✔ TUCSON | $29,450 | PASS
+✔ TUCSON Hybrid | $32,450 | PASS
+✔ TUCSON Plug-in Hybrid | $40,325 | PASS
+✔ SONATA | $27,450 | PASS
+✔ SONATA Hybrid | $29,200 | PASS
+✔ IONIQ 5 | $35,000 | PASS
+✔ IONIQ 5 N | $66,200 | PASS
+✔ ELANTRA | $22,625 | PASS
+✔ ELANTRA Hybrid | $25,450 | PASS
+✔ ELANTRA N | $35,100 | PASS
+✔ KONA | $25,500 | PASS
+✔ KONA Electric | $32,975 | PASS
+✔ IONIQ 6 | $37,850 | PASS
+✔ SANTA CRUZ | $29,750 | PASS
+✔ VENUE | $20,550 | PASS
+
+🎉 5 SEATER VALIDATION COMPLETED 🎉
+
+
+========== 6 SEATER ==========
+
+✔ SANTA FE | $35,050 | PASS
+
+🎉 6 SEATER VALIDATION COMPLETED 🎉
+
+
+========== 7 SEATER ==========
+
+✔ PALISADE | $39,435 | PASS
+✔ PALISADE Hybrid | $44,160 | PASS
+✔ SANTA FE | $35,050 | PASS
+✔ SANTA FE Hybrid | $36,400 | PASS
+✔ IONIQ 9 | $58,955 | PASS
+
+🎉 7 SEATER VALIDATION COMPLETED 🎉
+
+
+========== 8 SEATER ==========
+
+✔ PALISADE | $39,435 | PASS
+
+🎉 8 SEATER VALIDATION COMPLETED 🎉
+

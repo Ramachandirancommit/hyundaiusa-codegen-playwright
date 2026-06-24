@@ -1,0 +1,34 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+
+==============================
+BLACK COLOR VALIDATION STARTED
+==============================
+
+✔ 20 vehicle found (UI): 20
+✔ 20 vehicle matched with pre data
+PALISADE | $39,435 | img present -> verified | PASS
+PALISADE Hybrid | $44,160 | img present -> verified | PASS
+SANTA FE | $35,050 | img present -> verified | PASS
+SANTA FE Hybrid | $36,400 | img present -> verified | PASS
+TUCSON | $29,450 | img present -> verified | PASS
+TUCSON Hybrid | $32,450 | img present -> verified | PASS
+TUCSON Plug-in Hybrid | $40,325 | img present -> verified | PASS
+SONATA | $27,450 | img present -> verified | PASS
+SONATA Hybrid | $29,200 | img present -> verified | PASS
+IONIQ 5 | $35,000 | img present -> verified | PASS
+IONIQ 5 N | $66,200 | img present -> verified | PASS
+IONIQ 9 | $58,955 | img present -> verified | PASS
+ELANTRA | $22,625 | img present -> verified | PASS
+ELANTRA Hybrid | $25,450 | img present -> verified | PASS
+ELANTRA N | $35,100 | img present -> verified | PASS
+KONA | $25,500 | img present -> verified | PASS
+KONA Electric | $32,975 | img present -> verified | PASS
+IONIQ 6 | $37,850 | img present -> verified | PASS
+SANTA CRUZ | $29,750 | img present -> verified | PASS
+VENUE | $20,550 | img present -> verified | PASS
+
+🎉 BLACK COLOR VALIDATION COMPLETED SUCCESSFULLY

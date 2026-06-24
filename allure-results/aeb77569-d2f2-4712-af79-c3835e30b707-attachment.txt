@@ -1,0 +1,44 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✓ Setup complete - ready for tests
+
+
+🚗 Starting Vehicles Menu and Tab Navigation test...
+  → Opening Vehicles menu
+  ✓ Vehicles menu opened
+  → Clicking Electrified tab
+  ✓ Electrified tab clicked
+  → Clicking SUVs tab
+  ✓ SUVs tab clicked
+  → Clicking Sedans tab
+  ✓ Sedans tab clicked
+  → Clicking Performance tab
+  ✓ Performance tab clicked
+  → Clicking Future Vehicles tab
+  ✓ Future Vehicles tab clicked
+  → Clicking Compare All Vehicles link
+  ✓ Compare All Vehicles link clicked
+  → Verifying Compare vehicles text
+  ✓ Compare vehicles text verified
+  → Clicking SUVs section
+  ✓ SUVs section clicked
+  → Opening Vehicles menu
+  ✓ Vehicles menu opened
+  → Clicking Certified Used Vehicles link
+  ✓ Certified Used Vehicles link clicked
+  → Clicking hero image
+  ✓ Hero image clicked
+  → Opening Vehicles menu
+  ✓ Vehicles menu opened
+  → Clicking Electrified Advantages link
+  ✓ Electrified Advantages link clicked
+  → Verifying Electrified Vehicles text
+  ✓ Electrified Vehicles text verified
+  → Opening Vehicles menu
+  ✓ Vehicles menu opened
+✅ Vehicles Menu and Tab Navigation test passed
+
+✓ Browser closed

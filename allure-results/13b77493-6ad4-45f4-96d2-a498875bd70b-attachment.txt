@@ -1,0 +1,29 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✓ Setup complete - ready for tests
+
+
+📋 Starting Email Signup Form Submission test...
+  → Clicking Send me Hyundai updates
+  → Entering email address
+  → Clicking Continue signing up button
+  → Filling first name
+  → Filling last name
+  → Filling phone number
+  → Clicking consent checkbox
+  → Selecting dealership
+  → Clicking optional checkbox
+  → Opening multiselect dropdown
+  → Selecting VENUE
+  → Selecting KONA
+  → Selecting KONA Electric
+  → Clicking phone number optional text
+  → Submitting the form
+  → Verifying success messages
+  ⚠️ "Success!" not found, but continuing
+✅ Email Signup Form Submission test passed
+
+✓ Browser closed

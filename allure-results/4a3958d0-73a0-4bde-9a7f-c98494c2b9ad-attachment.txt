@@ -1,0 +1,12 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+✔ Hyundai Performance Page - internal navigation done
+✔ Sedans category - internal navigation done
+✔ SUVs category - internal navigation done
+✔ AWD link - internal navigation done
+✔ Electrified category - internal navigation done
+
+🎉 PERFORMANCE SECTION NAVIGATION COMPLETED SUCCESSFULLY 🎉

@@ -1,0 +1,11 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+Text not found, continuing...
+Text not found, continuing...
+Text not visible
+✅ Found: Hyundai Hope on Wheels brings
+Learn more button not found
+✅ Community banner test completed

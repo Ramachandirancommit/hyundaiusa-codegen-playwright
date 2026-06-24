@@ -1,0 +1,15 @@
+  ✔ Navigated to https://www.hyundaiusa.com/us/en
+  ✔ ZIP modal dismissed
+  ✔ Cookie banner dismissed
+  ✔ Page setup complete
+
+Redirected to Build and Search Inventory page 🎉
+Performance filter applied 🎯
+2 Model Results found
+Performance cards found: 2
+Performance vehicles in dataset: 2
+✔ IONIQ 5 N | PASS
+✔ ELANTRA N | PASS
+
+🎉 ALL PERFORMANCE VEHICLES VALIDATED SUCCESSFULLY 🎉
+
